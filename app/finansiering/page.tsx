@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 import { Card } from "@/components/Card";
 import { FadeIn } from "@/components/FadeIn";
 import { PageHeader } from "@/components/PageHeader";
+import { Partners } from "@/components/Partners";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata(
@@ -79,6 +80,7 @@ export default function FinansieringPage() {
           </FadeIn>
         </div>
       </section>
+      <Partners className="!pt-0" />
     </>
   );
 }

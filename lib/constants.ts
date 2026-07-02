@@ -4,11 +4,19 @@ export const SITE_DESCRIPTION =
   "Vi kjøper og selger bruktbiler med fokus på ryddig handel, riktig informasjon og en enkel prosess.";
 
 export const CONTACT = {
-  address: "Industriveien 12, 1400 Ski",
-  phone: "+47 64 00 00 00",
+  street: "Statsminister Torps vei 51",
+  postalCode: "1738",
+  city: "Borgenhaugen",
+  address: "Statsminister Torps vei 51, 1738 Borgenhaugen",
+  phone: "97 90 00 24",
+  phoneHref: "tel:+4797900024",
   email: "post@tnautopartner.no",
-  orgNr: "923 456 789",
+  orgNr: "815 852 702",
 } as const;
+
+export const MAP_QUERY = "Statsminister Torps vei 51, 1738 Borgenhaugen";
+export const MAP_EMBED_URL =
+  "https://maps.google.com/maps?q=Statsminister+Torps+vei+51,+1738+Borgenhaugen,+Norway&output=embed";
 
 export const OPENING_HOURS = [
   { day: "Mandag – Fredag", hours: "09:00 – 17:00" },

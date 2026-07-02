@@ -2,21 +2,24 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { CarStatusRibbon } from "@/components/cars/CarStatusRibbon";
 import type { BillinkImage } from "@/types/billink";
 import { cn } from "@/lib/utils";
 
 interface CarGalleryProps {
   images: BillinkImage[];
   title: string;
+  status?: string;
 }
 
-export function CarGallery({ images, title }: CarGalleryProps) {
+export function CarGallery({ images, title, status }: CarGalleryProps) {
   const [active, setActive] = useState(0);
 
   if (images.length === 0) {
     return (
-      <div className="flex aspect-[4/3] items-center justify-center rounded-2xl border border-white/10 bg-secondary text-sm text-muted">
+      <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-secondary text-sm text-muted">
         Bilde kommer
+        {status && <CarStatusRibbon status={status} />}
       </div>
     );
   }
@@ -34,6 +37,7 @@ export function CarGallery({ images, title }: CarGalleryProps) {
           className="object-cover"
           sizes="(max-width: 1024px) 100vw, 60vw"
         />
+        {status && <CarStatusRibbon status={status} />}
       </div>
 
       {images.length > 1 && (

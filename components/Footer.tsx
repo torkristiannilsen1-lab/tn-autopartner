@@ -43,7 +43,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-muted">
               <li>{CONTACT.address}</li>
               <li>
-                <a href={`tel:${CONTACT.phone.replace(/\s/g, "")}`} className="hover:text-white">
+                <a href={CONTACT.phoneHref} className="hover:text-white">
                   {CONTACT.phone}
                 </a>
               </li>

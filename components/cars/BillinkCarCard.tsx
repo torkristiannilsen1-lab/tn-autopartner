@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Calendar, Fuel, Gauge, Settings2 } from "lucide-react";
 import { Card } from "@/components/Card";
 import { CarStatusBadge } from "@/components/cars/CarStatusBadge";
+import { CarStatusRibbon } from "@/components/cars/CarStatusRibbon";
 import type { BillinkCar } from "@/types/billink";
 import { formatMileage, formatPrice } from "@/lib/utils";
 
@@ -31,7 +32,8 @@ export function BillinkCarCard({ car }: BillinkCarCardProps) {
               Bilde kommer
             </div>
           )}
-          <CarStatusBadge status={car.status} className="absolute left-4 top-4" />
+          <CarStatusRibbon status={car.status} />
+          <CarStatusBadge status={car.status} className="absolute right-4 top-4" />
         </div>
 
         <div className="space-y-4 p-6">

@@ -105,7 +105,7 @@ export default async function CarDetailPage({ params }: CarPageProps) {
 
         <div className="mt-8 grid gap-12 lg:grid-cols-[1.5fr_1fr]">
           <FadeIn>
-            <CarGallery images={car.images} title={title} />
+            <CarGallery images={car.images} title={title} status={car.status} />
           </FadeIn>
 
           <FadeIn delay={0.1} direction="left">

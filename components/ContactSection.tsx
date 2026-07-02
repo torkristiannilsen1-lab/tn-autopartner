@@ -2,7 +2,7 @@ import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { FadeIn } from "@/components/FadeIn";
 import { SectionTitle } from "@/components/SectionTitle";
-import { CONTACT, OPENING_HOURS } from "@/lib/constants";
+import { CONTACT, MAP_EMBED_URL, OPENING_HOURS } from "@/lib/constants";
 
 interface ContactSectionProps {
   showTitle?: boolean;
@@ -35,7 +35,7 @@ export function ContactSection({ showTitle = true }: ContactSectionProps) {
                   <Phone className="mt-1 shrink-0 text-primary" size={20} />
                   <div>
                     <p className="font-medium text-white">Telefon</p>
-                    <a href={`tel:${CONTACT.phone.replace(/\s/g, "")}`} className="text-muted hover:text-white">
+                    <a href={CONTACT.phoneHref} className="text-muted hover:text-white">
                       {CONTACT.phone}
                     </a>
                   </div>
@@ -66,7 +66,7 @@ export function ContactSection({ showTitle = true }: ContactSectionProps) {
               <div className="overflow-hidden rounded-2xl border border-white/10">
                 <iframe
                   title="Kart til TN Autopartner AS"
-                  src="https://maps.google.com/maps?q=Industriveien+12,+1400+Ski,+Norway&output=embed"
+                  src={MAP_EMBED_URL}
                   className="h-64 w-full"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
