@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<rect width="100%" height="100%" fill="black"/>
+<text x="800" y="250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="220" font-weight="700">
+<tspan fill="#d9d9d9">T</tspan><tspan fill="#d71920">N</tspan>
+</text>
+<text x="800" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700">
+<tspan fill="#d71920">TN </tspan><tspan fill="#d9d9d9">AUTOPARTNER AS</tspan>
+</text>
+<line x1="420" y1="445" x2="1180" y2="445" stroke="#d71920" stroke-width="4"/>
+<text x="800" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#d9d9d9" letter-spacing="3">
+DIN PARTNER · DIN VEIEN
+</text>
+</svg>
