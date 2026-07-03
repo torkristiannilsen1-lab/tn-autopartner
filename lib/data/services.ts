@@ -6,7 +6,7 @@ export const services: ServiceItem[] = [
     id: "quality",
     title: "Kontrollerte biler",
     description:
-      "Alle bilene blir sjekket før salg. Vi gir deg riktig informasjon om tilstand og historikk, uten å pynte på fakta.",
+      "Alle bilene blir sjekket før salg. Vi forteller deg om tilstand og historikk, uten å pynte på fakta.",
     icon: ShieldCheck,
   },
   {

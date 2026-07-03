@@ -18,7 +18,7 @@ export function Footer() {
             </Link>
             <p className="text-sm leading-relaxed text-muted">
               Bruktbilforhandler i Østfold. Vi kjøper og selger biler med fokus på
-              ryddig handel og riktig informasjon.
+              ryddig handel.
             </p>
           </div>
 

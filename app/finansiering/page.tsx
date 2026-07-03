@@ -18,16 +18,6 @@ const options = [
     description:
       "Vanlig billån med fast rente og faste månedlige kostnader over avtalt periode.",
   },
-  {
-    title: "Leasing",
-    description:
-      "Leasing gir lavere månedskostnad og mulighet for å bytte bil etter avtaleperioden.",
-  },
-  {
-    title: "Med egenkapital",
-    description:
-      "Har du egenkapital, tilpasser vi finansieringen etter det.",
-  },
 ];
 
 const benefits = [
@@ -42,12 +32,12 @@ export default function FinansieringPage() {
     <>
       <PageHeader
         title="Finansiering"
-        subtitle="Vi hjelper deg med å ordne finansiering gjennom samarbeidspartnerne våre."
+        subtitle="Vi hjelper deg med å finne en finansieringsløsning gjennom samarbeidspartnerne våre."
       />
       <section className="section-padding !pt-0">
         <div className="container-main space-y-16">
           <FadeIn>
-            <div className="grid gap-8 md:grid-cols-3">
+            <div className="mx-auto max-w-md">
               {options.map((option) => (
                 <Card key={option.title} hover glass className="p-8">
                   <h3 className="text-xl font-semibold text-white">{option.title}</h3>

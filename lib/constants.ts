@@ -1,7 +1,7 @@
 export const SITE_NAME = "TN Autopartner AS";
 export const SITE_URL = "https://tnautopartner.no";
 export const SITE_DESCRIPTION =
-  "Vi kjøper og selger bruktbiler med fokus på ryddig handel, riktig informasjon og en enkel prosess.";
+  "Vi kjøper og selger bruktbiler med fokus på ryddig handel og en enkel prosess.";
 
 export const CONTACT = {
   street: "Statsminister Torps vei 51",
@@ -19,8 +19,12 @@ export const MAP_EMBED_URL =
   "https://maps.google.com/maps?q=Statsminister+Torps+vei+51,+1738+Borgenhaugen,+Norway&output=embed";
 
 export const OPENING_HOURS = [
-  { day: "Mandag – Fredag", hours: "09:00 – 17:00" },
-  { day: "Lørdag", hours: "10:00 – 15:00" },
+  { day: "Mandag", hours: "10:00 – 17:00" },
+  { day: "Tirsdag", hours: "10:00 – 17:00" },
+  { day: "Onsdag", hours: "10:00 – 17:00" },
+  { day: "Torsdag", hours: "10:00 – 19:00" },
+  { day: "Fredag", hours: "10:00 – 17:00" },
+  { day: "Lørdag", hours: "Etter avtale" },
   { day: "Søndag", hours: "Stengt" },
 ] as const;
 

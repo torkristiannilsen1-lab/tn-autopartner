@@ -49,9 +49,9 @@ export default function OmOssPage() {
                 for kunden.
               </p>
               <p className="leading-relaxed text-muted">
-                Vi selger biler vi kan stå for, og gir deg riktig informasjon om
-                tilstand og historikk før du kjøper. Har du spørsmål, er det bare å ta
-                kontakt — vi hjelper deg både før og etter at handelen er gjort.
+                Vi selger biler vi kan stå for, og forteller deg om tilstand og
+                historikk før du kjøper. Har du spørsmål, er det bare å ta kontakt —
+                vi hjelper deg både før og etter at handelen er gjort.
               </p>
             </div>
           </FadeIn>
