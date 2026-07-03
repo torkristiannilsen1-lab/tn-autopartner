@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { validateContactForm } from "@/lib/contact/validate";
 import type { ContactFormData, ContactFormErrors } from "@/types/contact";
 
 const initialForm: ContactFormData = {
@@ -14,43 +15,66 @@ const initialForm: ContactFormData = {
   message: "",
 };
 
-function validateForm(data: ContactFormData): ContactFormErrors {
-  const errors: ContactFormErrors = {};
-
-  if (!data.name.trim()) errors.name = "Navn er påkrevd";
-  if (!data.email.trim()) {
-    errors.email = "E-post er påkrevd";
-  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) {
-    errors.email = "Ugyldig e-postadresse";
-  }
-  if (!data.phone.trim()) errors.phone = "Telefonnummer er påkrevd";
-  if (!data.message.trim()) errors.message = "Melding er påkrevd";
-
-  return errors;
-}
-
 export function ContactForm() {
   const [form, setForm] = useState<ContactFormData>(initialForm);
   const [errors, setErrors] = useState<ContactFormErrors>({});
+  const [submitError, setSubmitError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const validationErrors = validateForm(form);
+    setSubmitError("");
+
+    const validationErrors = validateContactForm(form);
     setErrors(validationErrors);
 
-    if (Object.keys(validationErrors).length === 0) {
+    if (Object.keys(validationErrors).length > 0) {
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      const data = (await response.json()) as {
+        success?: boolean;
+        error?: string;
+        errors?: ContactFormErrors;
+      };
+
+      if (!response.ok) {
+        if (data.errors) {
+          setErrors(data.errors);
+        }
+        setSubmitError(
+          data.error ?? "Kunne ikke sende meldingen. Prøv igjen senere.",
+        );
+        return;
+      }
+
       setSubmitted(true);
       setForm(initialForm);
+      setErrors({});
+    } catch {
+      setSubmitError("Kunne ikke sende meldingen. Sjekk nettverket og prøv igjen.");
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
   if (submitted) {
     return (
-      <div className="rounded-2xl border border-primary/30 bg-primary/10 p-8 text-center">
-        <h3 className="text-xl font-semibold text-white">Takk for din henvendelse</h3>
+      <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-8 text-center">
+        <h3 className="text-xl font-semibold text-white">Meldingen er sendt</h3>
         <p className="mt-3 text-muted">
-          Vi har mottatt meldingen din og tar kontakt så snart som mulig.
+          Takk for henvendelsen. Vi har mottatt meldingen din og tar kontakt så
+          snart som mulig.
         </p>
         <Button
           type="button"
@@ -66,6 +90,14 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6" noValidate>
+      {submitError && (
+        <div
+          role="alert"
+          className="rounded-xl border border-primary/30 bg-primary/10 px-4 py-3 text-sm text-white"
+        >
+          {submitError}
+        </div>
+      )}
       <div className="space-y-2">
         <Label htmlFor="name">Navn</Label>
         <Input
@@ -73,6 +105,7 @@ export function ContactForm() {
           value={form.name}
           onChange={(e) => setForm({ ...form, name: e.target.value })}
           placeholder="Ditt fulle navn"
+          disabled={isSubmitting}
         />
         {errors.name && <p className="text-sm text-primary">{errors.name}</p>}
       </div>
@@ -84,6 +117,7 @@ export function ContactForm() {
           value={form.email}
           onChange={(e) => setForm({ ...form, email: e.target.value })}
           placeholder="din@epost.no"
+          disabled={isSubmitting}
         />
         {errors.email && <p className="text-sm text-primary">{errors.email}</p>}
       </div>
@@ -94,9 +128,9 @@ export function ContactForm() {
           type="tel"
           value={form.phone}
           onChange={(e) => setForm({ ...form, phone: e.target.value })}
-          placeholder="+47 000 00 000"
+          placeholder="97 90 00 24"
+          disabled={isSubmitting}
         />
-        {errors.phone && <p className="text-sm text-primary">{errors.phone}</p>}
       </div>
       <div className="space-y-2">
         <Label htmlFor="message">Melding</Label>
@@ -105,11 +139,14 @@ export function ContactForm() {
           value={form.message}
           onChange={(e) => setForm({ ...form, message: e.target.value })}
           placeholder="Skriv hva du lurer på..."
+          disabled={isSubmitting}
         />
-        {errors.message && <p className="text-sm text-primary">{errors.message}</p>}
+        {errors.message && (
+          <p className="text-sm text-primary">{errors.message}</p>
+        )}
       </div>
-      <Button type="submit" size="lg" className="w-full">
-        Send melding
+      <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
+        {isSubmitting ? "Sender..." : "Send melding"}
       </Button>
     </form>
   );
