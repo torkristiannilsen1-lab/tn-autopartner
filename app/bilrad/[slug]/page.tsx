@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Button } from "@/components/Button";
+import { BilradGuideContent } from "@/components/BilradGuideContent";
 import { FadeIn } from "@/components/FadeIn";
 import { PageHeader } from "@/components/PageHeader";
-import {
-  bilradGuides,
-  getBilradGuide,
-} from "@/lib/data/bilrad-guides";
+import { bilradGuides, getBilradGuide } from "@/lib/data/bilrad-guides";
 import { createPageMetadata } from "@/lib/metadata";
 
 interface BilradGuidePageProps {
@@ -42,12 +40,18 @@ export default async function BilradGuidePage({ params }: BilradGuidePageProps) 
     <>
       <PageHeader title={guide.title} subtitle={guide.ingress} />
       <section className="section-padding !pt-0">
-        <div className="container-main">
+        <div className="container-main space-y-10">
           <FadeIn>
-            <div className="mx-auto max-w-3xl text-center">
-              <Button href="/bilrad" variant="outline">
-                Tilbake til Bilråd
-              </Button>
+            <BilradGuideContent sections={guide.sections} cta={guide.cta} />
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <div className="mx-auto max-w-3xl">
+              <Link
+                href="/bilrad"
+                className="text-sm text-muted transition-colors hover:text-white"
+              >
+                ← Tilbake til Bilråd
+              </Link>
             </div>
           </FadeIn>
         </div>
