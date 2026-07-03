@@ -9,29 +9,6 @@ export const metadata = createPageMetadata(
   "/om-oss",
 );
 
-const values = [
-  {
-    title: "Ærlighet",
-    description:
-      "Vi forteller det vi vet om bilens tilstand, historikk og pris. Ingen skjulte overraskelser.",
-  },
-  {
-    title: "Kvalitet",
-    description:
-      "Bilene blir sjekket før salg, og vi selger bare biler vi kan stå for.",
-  },
-  {
-    title: "Service",
-    description:
-      "Vi er tilgjengelige for spørsmål og oppfølging, også etter at bilen er levert.",
-  },
-  {
-    title: "Enkel prosess",
-    description:
-      "Vi holder prosessen enkel og forutsigbar, fra første kontakt til levering.",
-  },
-];
-
 export default function OmOssPage() {
   return (
     <>
@@ -87,19 +64,6 @@ export default function OmOssPage() {
             </div>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <div className="grid gap-8 md:grid-cols-2">
-              {values.map((value) => (
-                <div
-                  key={value.title}
-                  className="rounded-2xl border border-white/10 bg-secondary/60 p-8 backdrop-blur-md"
-                >
-                  <h3 className="text-xl font-semibold text-white">{value.title}</h3>
-                  <p className="mt-4 leading-relaxed text-muted">{value.description}</p>
-                </div>
-              ))}
-            </div>
-          </FadeIn>
-          <FadeIn delay={0.2}>
             <div className="text-center">
               <Button href="/kontakt" size="lg">
                 Ta kontakt med oss

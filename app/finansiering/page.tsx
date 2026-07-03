@@ -15,8 +15,6 @@ export const metadata = createPageMetadata(
 const options = [
   {
     title: "Billån",
-    description:
-      "Vanlig billån med fast rente og faste månedlige kostnader over avtalt periode.",
   },
 ];
 
@@ -41,7 +39,6 @@ export default function FinansieringPage() {
               {options.map((option) => (
                 <Card key={option.title} hover glass className="p-8">
                   <h3 className="text-xl font-semibold text-white">{option.title}</h3>
-                  <p className="mt-4 leading-relaxed text-muted">{option.description}</p>
                 </Card>
               ))}
             </div>
