@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Når du skal kjøpe bruktbil, dukker mange av de samme spørsmålene opp. Som bilforhandler i Sarpsborg og Fredrikstad møter vi disse hver uke. Her har vi samlet svar på det folk lurer mest på – ærlig og uten unødvendig komplisering.",
+    text: "Når du skal kjøpe bruktbil, dukker mange av de samme spørsmålene opp. Her har vi samlet svar på det folk lurer mest på – ærlig og uten unødvendig komplisering.",
   },
   {
     type: "heading",
@@ -91,9 +91,9 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Du finner bruktbiler hos bilforhandlere i Sarpsborg, Fredrikstad og andre steder i Østfold. Sjekk nettsider, besøk bilbutikker og sammenlign tilbud. Se etter forhandlere som er ærlige om tilstand, deler servicehistorikk og forklarer avtale og garanti tydelig.",
+    text: "Du finner bruktbiler hos bilforhandlere i hele Østfold, inkludert Sarpsborg og Fredrikstad. Sjekk nettsider, besøk bilbutikker og sammenlign tilbud. Se etter forhandlere som er ærlige om tilstand, deler servicehistorikk og forklarer avtale og garanti tydelig.",
   },
 ];
 
 export const cta =
-  "Har du flere spørsmål om bruktbilkjøp? TN Autopartner svarer gjerne – ta kontakt og få hjelp til å finne riktig bil i Østfold.";
+  "Har du flere spørsmål om bruktbilkjøp? Send oss en melding – vi svarer gjerne og hjelper deg finne riktig bil.";

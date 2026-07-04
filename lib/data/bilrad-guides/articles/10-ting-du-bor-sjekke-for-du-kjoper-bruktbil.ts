@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Å kjøpe bruktbil er for de fleste en av de større investeringene man gjør. Enten du ser deg om i en bilbutikk i Sarpsborg, handler hos en bilforhandler i Fredrikstad eller kjøper privat i Østfold, lønner det seg å bruke tid på en grundig sjekk. En bruktbil har alltid historie – og det er nettopp historien du bør forsøke å forstå før du signerer.",
+    text: "Å kjøpe bruktbil er for de fleste en av de større investeringene man gjør. Uansett om du handler hos en forhandler, ser deg om lokalt eller kjøper privat, lønner det seg å bruke tid på en grundig sjekk. En bruktbil har alltid historie – og det er nettopp historien du bør forsøke å forstå før du signerer.",
   },
   {
     type: "paragraph",
@@ -100,4 +100,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Ser du etter bruktbil i Sarpsborg, Fredrikstad eller Østfold? Ta kontakt med TN Autopartner, så hjelper vi deg med å finne en bil som passer dine behov.";
+  "Ser du etter bruktbil i Sarpsborg, Fredrikstad eller Østfold? Ta kontakt med TN Autopartner i Borgenhaugen – vi hjelper deg finne en bil som passer.";

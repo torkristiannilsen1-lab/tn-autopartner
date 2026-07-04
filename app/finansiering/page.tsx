@@ -15,12 +15,14 @@ export const metadata = createPageMetadata(
 const options = [
   {
     title: "Billån",
+    description:
+      "Vi formidler billån gjennom samarbeidspartnere som SpareBank 1 Finans og Santander. Du får oversikt over rente, gebyrer og totalpris før du signerer.",
   },
 ];
 
 const benefits = [
   "Personlig hjelp gjennom hele søknaden",
-  "Rask behandling",
+  "Du får vanligvis svar samme dag på hverdager",
   "Samarbeid med etablerte banker og finansselskap",
   "Full oversikt over totalkostnaden før du signerer",
 ];
@@ -39,6 +41,7 @@ export default function FinansieringPage() {
               {options.map((option) => (
                 <Card key={option.title} hover glass className="p-8">
                   <h3 className="text-xl font-semibold text-white">{option.title}</h3>
+                  <p className="mt-4 leading-relaxed text-muted">{option.description}</p>
                 </Card>
               ))}
             </div>

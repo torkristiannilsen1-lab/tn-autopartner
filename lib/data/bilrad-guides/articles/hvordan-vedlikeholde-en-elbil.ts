@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Elbil har færre bevegelige deler enn biler med bensin- eller dieselmotor, men det betyr ikke at den er vedlikeholdsfri. Godt bilhold holder elbilen din trygg, effektiv og verdifull over tid. Enten du vurderer brukt elbil hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller andre steder i Østfold, bør du vite hva som kreves av vedlikehold.",
+    text: "Elbil har færre bevegelige deler enn biler med bensin- eller dieselmotor, men det betyr ikke at den er vedlikeholdsfri. Godt bilhold holder elbilen din trygg, effektiv og verdifull over tid.",
   },
   {
     type: "heading",
@@ -72,4 +72,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Vurderer du brukt elbil i Østfold? TN Autopartner hjelper deg finne en bil som passer – og forklarer hva du bør vite om vedlikehold.";
+  "Vurderer du brukt elbil? Ta kontakt – vi hjelper deg finne en bil som passer og forklarer hva du bør vite om vedlikehold.";

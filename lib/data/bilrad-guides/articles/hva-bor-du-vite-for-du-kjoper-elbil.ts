@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Elbil passer flere og flere, men det er ikke riktig valg for alle. Før du kjøper brukt elbil – eller ny – bør du tenke gjennom hverdagen din, lademuligheter og hva du faktisk trenger. Dette gjelder uansett om du handler hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller andre steder i Østfold.",
+    text: "Elbil passer flere og flere, men det er ikke riktig valg for alle. Før du kjøper brukt elbil – eller ny – bør du tenke gjennom hverdagen din, lademuligheter og hva du faktisk trenger.",
   },
   {
     type: "heading",
@@ -78,4 +78,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Usikker på om elbil er riktig for deg? Ta kontakt med TN Autopartner – vi hjelper deg vurdere bruktbiler som passer din hverdag i Sarpsborg og Fredrikstad.";
+  "Usikker på om elbil er riktig for deg? Vi hjelper deg vurdere bruktbiler som passer hverdagen din – ta kontakt for en uforpliktende prat.";

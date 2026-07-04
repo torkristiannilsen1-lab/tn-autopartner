@@ -14,7 +14,7 @@ export function Partners({ className }: PartnersProps) {
         <FadeIn>
           <SectionTitle
             title="Vi samarbeider med"
-            subtitle="Vi ordner finansiering og forsikring gjennom etablerte samarbeidspartnere."
+            subtitle="Vi samarbeider med etablerte aktører innen finansiering og forsikring, og hjelper deg videre dersom du trenger det."
           />
         </FadeIn>
         <FadeIn delay={0.1}>

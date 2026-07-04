@@ -17,8 +17,8 @@ export function Footer() {
               />
             </Link>
             <p className="text-sm leading-relaxed text-muted">
-              Bruktbilforhandler i Østfold. Vi kjøper og selger biler med fokus på
-              ryddig handel.
+              Bruktbilforhandler i Borgenhaugen – Sarpsborg og Østfold. Vi kjøper
+              og selger biler med tydelig informasjon og klare avtaler.
             </p>
           </div>
 
@@ -64,21 +64,25 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-            <h4 className="mb-4 mt-8 font-semibold text-white">Følg oss</h4>
-            <ul className="flex gap-4">
-              {SOCIAL_LINKS.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-muted transition-colors hover:text-primary"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            {SOCIAL_LINKS.length > 0 && (
+              <>
+                <h4 className="mb-4 mt-8 font-semibold text-white">Følg oss</h4>
+                <ul className="flex gap-4">
+                  {SOCIAL_LINKS.map((link) => (
+                    <li key={link.label}>
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-muted transition-colors hover:text-primary"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </div>
         </div>
 

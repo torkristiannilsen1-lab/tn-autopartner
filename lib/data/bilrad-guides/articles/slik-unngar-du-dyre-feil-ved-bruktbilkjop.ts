@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "De dyreste feilene ved bruktbilkjøp skjer som regel ikke fordi bilen er gammel, men fordi man ikke visste hva man burde se etter. Det gjelder uansett om du handler i en bilbutikk i Fredrikstad, hos en bilforhandler i Sarpsborg eller kjøper bruktbil privat ute i Østfold.",
+    text: "De dyreste feilene ved bruktbilkjøp skjer som regel ikke fordi bilen er gammel, men fordi man ikke visste hva man burde se etter. Det gjelder uansett om du handler hos en forhandler eller kjøper privat.",
   },
   {
     type: "paragraph",
@@ -84,4 +84,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Lurer du på om en bruktbil er et trygt valg? Ta gjerne kontakt med TN Autopartner – vi hjelper deg gjerne med å vurdere bil og avtale før du bestemmer deg.";
+  "Lurer du på om en bruktbil er et trygt valg? Ring oss på 97 90 00 24, så går vi gjerne gjennom bil og avtale sammen.";

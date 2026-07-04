@@ -68,7 +68,7 @@ export const bilradGuides: BilradGuide[] = [
       slug: "hva-bor-du-se-etter-pa-en-provekjoring",
       title: "Hva bør du se etter på en prøvekjøring?",
       ingress:
-        "Prøvekjøring er din sjanse til å kjenne på bilen før du bestemmer deg. Vi viser hva du bør legge merke til i kupe, under kjøring og etter turen – uansett om du er i Sarpsborg, Fredrikstad eller andre steder i Østfold.",
+        "Prøvekjøring er din sjanse til å kjenne på bilen før du bestemmer deg. Vi viser hva du bør legge merke til i kupe, under kjøring og etter turen.",
     },
     guideProvekjoring,
   ),
@@ -167,7 +167,7 @@ export const bilradGuides: BilradGuide[] = [
       slug: "vanlige-sporsmal-ved-kjop-av-bruktbil",
       title: "Vanlige spørsmål ved kjøp av bruktbil",
       ingress:
-        "Mange lurer på det samme når de skal kjøpe bruktbil. Vi har samlet svar på de vanligste spørsmålene vi får som bilforhandler i Sarpsborg og Fredrikstad – og i resten av Østfold.",
+        "Mange lurer på det samme når de skal kjøpe bruktbil. Vi har samlet svar på de vanligste spørsmålene vi får som bilforhandler i Borgenhaugen og Østfold.",
     },
     guideFaq,
   ),

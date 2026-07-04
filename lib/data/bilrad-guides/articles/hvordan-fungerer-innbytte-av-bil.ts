@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Innbytte er en enkel måte å bytte bil på uten å selge den gamle privat først. Du leverer bilen du har, får en verdi satt på den, og denne verdien trekkes fra prisen på bruktbilen du kjøper. Mange som handler hos en bilforhandler i Sarpsborg, Fredrikstad eller andre steder i Østfold velger innbytte nettopp fordi det er ryddig og oversiktlig.",
+    text: "Innbytte er en enkel måte å bytte bil på uten å selge den gamle privat først. Du leverer bilen du har, får en verdi satt på den, og denne verdien trekkes fra prisen på bruktbilen du kjøper.",
   },
   {
     type: "heading",
@@ -80,4 +80,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Vurderer du innbytte? Send oss info om bilen din, så gir TN Autopartner et uforpliktende tilbud og hjelper deg videre med bruktbilkjøp i Østfold.";
+  "Skal du bytte bil snart? Send oss info om bilen din, så gir vi et uforpliktende innbyttetilbud.";

@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Norge har tøffe årstider, og bilen din merker det. Godt bilhold gjennom året holder bruktbilen din trygg, pålitelig og mer verdifull. Enten du kjøpte bilen hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller andre steder i Østfold, gjelder det samme: litt jevn innsats gjør stor forskjell.",
+    text: "Norge har tøffe årstider, og bilen din merker det. Godt bilhold gjennom året holder bruktbilen din trygg, pålitelig og mer verdifull. Litt jevn innsats gjør stor forskjell.",
   },
   {
     type: "heading",
@@ -78,4 +78,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Trenger du bruktbil som tåler norske årstider? TN Autopartner hjelper deg finne en bil i god stand – ta kontakt i Sarpsborg eller Fredrikstad.";
+  "Trenger du bruktbil som tåler norske årstider? Ta kontakt – vi hjelper deg finne en bil i god stand.";

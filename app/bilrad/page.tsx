@@ -24,12 +24,11 @@ export default function BilradPage() {
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-lg leading-relaxed text-muted">
                 Hos TN Autopartner deler vi råd og erfaringer fra mange år som
-                bilforhandler. Enten du skal kjøpe din første bruktbil eller har
-                handlet biler før, håper vi guider og tipsene våre gjør deg
-                tryggere i valget. Vi dekker alt fra servicehistorikk og
-                prøvekjøring til billån, innbytte og bruktbilgaranti – med
-                fokus på det som er relevant for deg i Sarpsborg, Fredrikstad og
-                resten av Østfold.
+                bilforhandler i Borgenhaugen. Enten du skal kjøpe din første
+                bruktbil eller har handlet biler før, håper guidene og tipsene våre
+                gjør deg tryggere i valget. Her finner du praktiske guider om alt
+                fra servicehistorikk og prøvekjøring til billån, innbytte og
+                bruktbilgaranti.
               </p>
             </div>
           </FadeIn>

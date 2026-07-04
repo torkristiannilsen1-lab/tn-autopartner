@@ -5,8 +5,8 @@ import { SectionTitle } from "@/components/SectionTitle";
 
 const benefits = [
   "Renter og vilkår fra flere samarbeidspartnere",
-  "Rask behandling av søknaden",
-  "Nedbetaling tilpasset det du har råd til",
+  "Vi hjelper deg gjennom søknaden",
+  "Du får vanligvis svar samme dag på hverdager",
   "Finansiering med eller uten egenkapital",
 ];
 
@@ -40,8 +40,10 @@ export function Finance() {
               </p>
               <p className="mt-4 text-4xl font-semibold text-white">Fra 3 490 kr/mnd</p>
               <p className="mt-4 leading-relaxed text-muted">
-                Basert på et lånebeløp på 400 000 kr over 5 år. Månedskostnaden
-                avhenger av bil, egenkapital og kredittvurdering.
+                Representativt eksempel: lånebeløp 170 000 kr, nedbetalingstid 5
+                år, nominell rente 7,9 % p.a., eff. rente 8,24 % p.a., totalkostnad
+                209 400 kr. Månedskostnaden avhenger av bil, egenkapital og
+                kredittvurdering.
               </p>
             </div>
           </FadeIn>

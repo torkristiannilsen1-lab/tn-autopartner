@@ -9,7 +9,7 @@ export const revalidate = 600;
 
 export const metadata = createPageMetadata(
   "Biler",
-  "Se bruktbilene vi har inne nå. Ta kontakt hvis du vil vite mer om en bestemt bil.",
+  "Se bruktbilene vi har inne nå hos TN Autopartner i Borgenhaugen. Ta kontakt for prøvekjøring eller mer info.",
   "/biler",
 );
 

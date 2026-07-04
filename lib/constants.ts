@@ -1,7 +1,7 @@
 export const SITE_NAME = "TN Autopartner AS";
 export const SITE_URL = "https://tnautopartner.no";
 export const SITE_DESCRIPTION =
-  "Vi kjøper og selger bruktbiler med fokus på ryddig handel og en enkel prosess.";
+  "Bruktbilforhandler i Borgenhaugen nær Sarpsborg. Vi kjøper og selger bruktbiler med tydelig informasjon og en enkel prosess.";
 
 export const CONTACT = {
   street: "Statsminister Torps vei 51",
@@ -37,8 +37,4 @@ export const NAV_LINKS = [
   { href: "/kontakt", label: "Kontakt" },
 ] as const;
 
-export const SOCIAL_LINKS = [
-  { href: "https://facebook.com", label: "Facebook" },
-  { href: "https://instagram.com", label: "Instagram" },
-  { href: "https://linkedin.com", label: "LinkedIn" },
-] as const;
+export const SOCIAL_LINKS: { href: string; label: string }[] = [];

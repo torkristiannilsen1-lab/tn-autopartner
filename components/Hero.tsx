@@ -42,13 +42,13 @@ export function Hero() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <h1 className="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-white md:text-6xl lg:text-7xl">
-            Din partner på veien
+            Bruktbil i Borgenhaugen og Østfold
           </h1>
         </FadeIn>
         <FadeIn delay={0.2}>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
-            Vi kjøper og selger bruktbiler med fokus på ryddig handel, riktig
-            informasjon og en enkel prosess.
+            Vi kjøper og selger bruktbiler med ærlig informasjon om tilstand og
+            historikk. Tydelige avtaler – fra første prat til du kjører hjem.
           </p>
         </FadeIn>
         <FadeIn delay={0.3}>

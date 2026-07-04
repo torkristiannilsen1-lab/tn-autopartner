@@ -11,7 +11,7 @@ export function Testimonials() {
         <FadeIn>
           <SectionTitle
             title="Kundeomtaler"
-            subtitle="Noen ord fra kunder vi har hjulpet."
+            subtitle="Dette sier noen av kundene våre."
           />
         </FadeIn>
         <div className="grid gap-8 md:grid-cols-3">

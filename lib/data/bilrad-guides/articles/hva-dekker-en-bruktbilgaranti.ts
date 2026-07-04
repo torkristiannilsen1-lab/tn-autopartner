@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Bruktbilgaranti er noe mange spør om når de skal kjøpe bruktbil. Det gir en viss trygghet, men det er viktig å forstå hva garantien faktisk dekker – og hva den ikke dekker. Dette gjelder uansett om du handler hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller andre steder i Østfold.",
+    text: "Bruktbilgaranti er noe mange spør om når de skal kjøpe bruktbil. Det gir en viss trygghet, men det er viktig å forstå hva garantien faktisk dekker – og hva den ikke dekker.",
   },
   {
     type: "heading",
@@ -76,4 +76,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Lurer du på bruktbilgaranti? Ta kontakt med TN Autopartner – vi forklarer hva vi tilbyr og hva du kan forvente som bileier.";
+  "Lurer du på hva garantien dekker på en bil hos oss? Ta kontakt – vi går gjennom vilkårene sammen med deg.";

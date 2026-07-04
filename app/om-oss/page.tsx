@@ -5,7 +5,7 @@ import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata(
   "Om oss",
-  "TN Autopartner AS er en bruktbilforhandler i Østfold. Vi kjøper og selger biler med fokus på ryddig handel.",
+  "TN Autopartner AS er en bruktbilforhandler i Borgenhaugen nær Sarpsborg. Vi kjøper og selger biler med tydelig informasjon og klare avtaler.",
   "/om-oss",
 );
 
@@ -14,7 +14,7 @@ export default function OmOssPage() {
     <>
       <PageHeader
         title="Om TN Autopartner"
-        subtitle="En bruktbilforhandler i Østfold. Vi kjøper og selger biler, og legger vekt på ryddig handel."
+        subtitle="En bruktbilforhandler i Borgenhaugen, nær Sarpsborg. Vi kjøper og selger biler, og legger vekt på ærlig informasjon og klare avtaler."
       />
       <section className="section-padding !pt-0">
         <div className="container-main space-y-16">
@@ -42,19 +42,19 @@ export default function OmOssPage() {
                 bekjente.
               </p>
               <p className="leading-relaxed text-muted">
-                En bruktbil er nettopp det – en brukt bil. Ingen kan garantere at den
+                En bruktbil er nettopp det – brukt. Ingen kan garantere at den
                 aldri får en feil, eller at slitedeler ikke må skiftes underveis.
                 Regelmessig vedlikehold er en naturlig del av det å eie bil, og enkelte
                 reparasjoner vil komme som følge av normal slitasje over tid. Det er en
                 del av bilholdet, uansett hvor bilen er kjøpt.
               </p>
               <p className="leading-relaxed text-muted">
-                Det vi kan love deg, er at vi skal være en seriøs og ryddig
-                samarbeidspartner også etter at bilen er levert. Vi tilbyr gode
-                garantiordninger, tydelige avtaler og behandler reklamasjoner på en
-                profesjonell måte i tråd med avtalen og gjeldende regelverk. Skulle noe
-                uforutsett oppstå, ønsker vi å finne gode løsninger og behandle saken på
-                en ryddig og rettferdig måte.
+                Det vi streber etter, er å være en ryddig samarbeidspartner også
+                etter at bilen er levert. Vi tilbyr garanti etter avtale, og
+                behandler reklamasjoner profesjonelt i tråd med avtalen og
+                gjeldende regelverk. Hva som dekkes, står i kjøpekontrakten.
+                Skulle noe uforutsett oppstå, ønsker vi å finne gode løsninger
+                og behandle saken på en rettferdig måte.
               </p>
               <p className="leading-relaxed text-muted">
                 Hos TN Autopartner ønsker vi at du skal oppleve en enkel, ærlig og

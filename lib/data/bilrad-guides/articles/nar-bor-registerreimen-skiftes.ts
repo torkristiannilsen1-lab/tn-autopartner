@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Registerreim er en av de viktigste vedlikeholdsdelene på mange biler med bensin- eller dieselmotor. Hvis beltet ryker, kan det føre til alvorlige motorskader – og det er dyrt å reparere. Derfor bør du alltid sjekke registerreim når du vurderer bruktbil, enten hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller privat i Østfold.",
+    text: "Registerreim er en av de viktigste vedlikeholdsdelene på mange biler med bensin- eller dieselmotor. Hvis beltet ryker, kan det føre til alvorlige motorskader – og det er dyrt å reparere. Derfor bør du alltid sjekke registerreim når du vurderer bruktbil.",
   },
   {
     type: "heading",
@@ -11,7 +11,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Registerreim er et gummibeltre som driver kamakslingen i motoren. Det sørger for at ventiler og stempler beveger seg i riktig takt. På mange motorer er kamakslingen og veivakslingen synkronisert via registerreimen. Hvis beltet ryker, kan ventiler og stempler kollidere – og da snakker vi ofte om en svært kostbar reparasjon.",
+    text: "Registerreim er et gummireim som driver kamakslingen i motoren. Det sørger for at ventiler og stempler beveger seg i riktig takt. På mange motorer er kamakslingen og veivakslingen synkronisert via registerreimen. Hvis beltet ryker, kan ventiler og stempler kollidere – og da snakker vi ofte om en svært kostbar reparasjon.",
   },
   {
     type: "heading",
@@ -68,4 +68,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Usikker på registerreim på en bruktbil du vurderer? TN Autopartner deler servicehistorikk og hjelper deg ta et informert valg – ta kontakt i dag.";
+  "Usikker på registerreim på en bil du vurderer hos oss? Ta kontakt – vi deler det vi vet om servicehistorikken.";

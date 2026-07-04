@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Regelmessig service er grunnlaget for god bilhold. Uansett om du kjører en bensinbil, diesel, hybrid eller elbil, trenger bilen oppfølging for å holde seg trygg og pålitelig. Dette gjelder om du har kjøpt bruktbil hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller andre steder i Østfold – vedlikehold er ditt ansvar som bileier.",
+    text: "Regelmessig service er grunnlaget for god bilhold. Uansett om du kjører en bensinbil, diesel, hybrid eller elbil, trenger bilen oppfølging for å holde seg trygg og pålitelig. Vedlikehold er ditt ansvar som bileier.",
   },
   {
     type: "heading",
@@ -78,4 +78,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Skal du kjøpe bruktbil og vil vite mer om servicebehov? TN Autopartner deler gjerne det vi vet om bilen – ta kontakt for en prat.";
+  "Skal du kjøpe bruktbil og vil vite mer om servicebehov? Vi deler gjerne det vi vet – ta kontakt for en prat.";

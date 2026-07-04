@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "De færreste har råd til å betale hele summen kontant når de skal kjøpe bruktbil. Billån er derfor en vanlig løsning – enten du handler hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller et annet sted i Østfold. Det viktigste er at du forstår hva du signerer, og hva lånet faktisk koster totalt.",
+    text: "De færreste har råd til å betale hele summen kontant når de skal kjøpe bruktbil. Billån er derfor en vanlig løsning. Det viktigste er at du forstår hva du signerer, og hva lånet faktisk koster totalt.",
   },
   {
     type: "heading",
@@ -78,4 +78,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Trenger du hjelp med billån til bruktbil? TN Autopartner hjelper deg med finansiering gjennom samarbeidspartnere – ta kontakt for et uforpliktende tilbud.";
+  "Trenger du hjelp med billån? Ta kontakt – vi hjelper deg med finansiering gjennom samarbeidspartnere og gir oversikt før du signerer.";

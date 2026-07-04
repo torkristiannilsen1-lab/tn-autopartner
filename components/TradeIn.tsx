@@ -5,21 +5,21 @@ import { SectionTitle } from "@/components/SectionTitle";
 const steps = [
   {
     step: "01",
-    title: "Verdivurdering",
+    title: "Kontakt oss",
     description:
-      "Vi vurderer bilen din ut fra tilstand, historikk og hva den er verdt i markedet.",
+      "Send oss informasjon om bilen: merke, modell, årsmodell og kilometerstand.",
   },
   {
     step: "02",
-    title: "Tilbud og avklaring",
+    title: "Verdivurdering",
     description:
-      "Du får et tydelig tilbud uten skjulte gebyrer. Vi går gjennom detaljene sammen med deg.",
+      "Vi vurderer bilen og gir deg et tydelig tilbud.",
   },
   {
     step: "03",
-    title: "Bytte og levering",
+    title: "Avtale og bytte",
     description:
-      "Vi ordner papirarbeid og eierskifte, så du slipper å tenke på det.",
+      "Sier du ja, trekker vi verdien fra bilen du kjøper. Vi ordner papirarbeidet.",
   },
 ];
 

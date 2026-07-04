@@ -10,7 +10,7 @@ export function Services() {
         <FadeIn>
           <SectionTitle
             title="Hvorfor velge TN Autopartner"
-            subtitle="Vi holder det enkelt: ryddig handel og god oppfølging underveis."
+            subtitle="Vi holder det enkelt: tydelig informasjon og god oppfølging underveis."
           />
         </FadeIn>
         <div className="grid gap-8 md:grid-cols-3">

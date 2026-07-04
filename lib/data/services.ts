@@ -6,19 +6,19 @@ export const services: ServiceItem[] = [
     id: "quality",
     title: "Kontrollerte biler",
     description:
-      "Alle bilene blir sjekket før salg. Vi forteller deg om tilstand og historikk, uten å pynte på fakta.",
+      "Vi går gjennom bilene før salg og forteller deg om tilstand og historikk så langt vi kjenner den. Vi pynter ikke på fakta.",
     icon: ShieldCheck,
   },
   {
     id: "finance",
     title: "Finansiering",
     description:
-      "Vi hjelper deg med å ordne billån gjennom samarbeidspartnerne våre. Enkel søknad og raskt svar.",
+      "Vi hjelper deg gjennom søknaden og formidler den til samarbeidspartnerne våre. Du får vanligvis svar samme dag på hverdager.",
     icon: Car,
   },
   {
     id: "trust",
-    title: "Ryddig handel",
+    title: "Klare avtaler",
     description:
       "Tydelige avtaler og klar informasjon fra start til slutt. Du skal vite hva du kjøper.",
     icon: Handshake,

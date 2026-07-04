@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Prøvekjøring er en av de viktigste delene av et bruktbilkjøp. Du kan lese annonser, se bilder og høre på selger – men det er bak rattet du faktisk kjenner om bilen føles riktig. Uansett om du prøvekjører hos en bilforhandler i Sarpsborg, en bilbutikk i Fredrikstad eller en privat selger i Østfold, bør du vite hva du skal se etter.",
+    text: "Prøvekjøring er en av de viktigste delene av et bruktbilkjøp. Du kan lese annonser, se bilder og høre på selger – men det er bak rattet du faktisk kjenner om bilen føles riktig.",
   },
   {
     type: "heading",
@@ -78,4 +78,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Vil du prøvekjøre en bruktbil hos oss? Ta kontakt med TN Autopartner i Sarpsborg – vi setter gjerne opp en prøvetur som passer deg.";
+  "Vil du prøvekjøre en bil hos oss? Ta kontakt – vi holder til i Borgenhaugen, like ved Sarpsborg, og setter gjerne opp en prøvetur.";

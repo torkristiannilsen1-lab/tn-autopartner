@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Garanti og reklamasjon er to ord som ofte brukes om hverandre – men de betyr ikke det samme. Når du kjøper bruktbil hos en bilforhandler i Sarpsborg, Fredrikstad eller andre steder i Østfold, er det lurt å forstå forskjellen før du signerer avtalen.",
+    text: "Garanti og reklamasjon er to ord som ofte brukes om hverandre – men de betyr ikke det samme. Når du kjøper bruktbil hos en forhandler, er det lurt å forstå forskjellen før du signerer avtalen.",
   },
   {
     type: "heading",
@@ -19,7 +19,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Reklamasjon handler om dine rettigheter når varen du har kjøpt ikke er i tråd med det som er avtalt. Ved kjøp av bruktbil fra en bilforhandler gjelder regler om reklamasjon som gir deg en viss beskyttelse som forbruker. Reklamasjon er ikke det samme som garanti – det er en lovfestet rettighet med egne frister og vilkår.",
+    text: "Reklamasjon handler om rettighetene du har når varen du har kjøpt ikke er som avtalt. Ved kjøp av bruktbil fra forhandler gjelder forbrukerkjøpsloven, men rettighetene avhenger av hva som er avtalt og bilens alder og pris. Reklamasjon er ikke det samme som garanti.",
   },
   {
     type: "paragraph",
@@ -44,7 +44,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Verken garanti eller reklamasjon dekker det som regnes som normal slitasje. Bremser, dekk, batteri, foringer og viskere slites over tid – det er en del av bilholdet. Dette er bileiers ansvar, uansett om du kjøpte bilen i en bilbutikk i Fredrikstad eller hos en bilforhandler i Sarpsborg.",
+    text: "Verken garanti eller reklamasjon dekker det som regnes som normal slitasje. Bremser, dekk, batteri, foringer og viskere slites over tid – det er en del av bilholdet. Dette er bileiers ansvar.",
   },
   {
     type: "heading",
@@ -68,7 +68,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "En god bilforhandler ønsker å løse saker ryddig. Det betyr tydelig kommunikasjon, ærlig vurdering av om feilen faller innenfor garanti, reklamasjon eller normal slitasje, og at du får svar på hva som skjer videre. Vi kan ikke love at alt alltid løses til din fordel – men vi kan love å behandle saker profesjonelt og i tråd med avtalen.",
+    text: "En god bilforhandler ønsker å løse saker ryddig. Det betyr tydelig kommunikasjon, ærlig vurdering av om feilen faller innenfor garanti, reklamasjon eller normal slitasje, og at du får svar på hva som skjer videre. Vi kan ikke garantere at alle saker løses slik du håper – men vi behandler dem ærlig og i tråd med avtalen.",
   },
   {
     type: "heading",
@@ -76,9 +76,9 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Ta vare på kjøpekontrakt, garantibevis og all kommunikasjon. Ved feil er dokumentasjon viktig. Beskriv problemet tydelig, ta bilder om relevant, og kontakt selger så snart som mulig. Jo bedre grunnlag du har, desto enklere blir saksbehandlingen.",
+    text: "Ta vare på kjøpekontrakt, garantibevis og all kommunikasjon. Ved feil er dokumentasjon viktig. Beskriv problemet tydelig, ta bilder hvis det er relevant, og kontakt selger så snart som mulig. Jo bedre grunnlag du har, desto enklere blir saksbehandlingen.",
   },
 ];
 
 export const cta =
-  "Har du spørsmål om garanti eller reklamasjon etter bruktbilkjøp? Ta kontakt med TN Autopartner – vi tar saker på alvor og følger avtalen.";
+  "Har du spørsmål om garanti eller reklamasjon? Ta kontakt – vi tar saker på alvor og følger det som står i avtalen.";

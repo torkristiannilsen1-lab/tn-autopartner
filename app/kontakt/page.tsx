@@ -13,7 +13,7 @@ export default function KontaktPage() {
     <>
       <PageHeader
         title="Kontakt oss"
-        subtitle="Ring, send e-post eller fyll ut skjemaet, så tar vi kontakt."
+        subtitle="Ring, send e-post eller fyll ut skjemaet – så svarer vi så raskt vi kan."
       />
       <ContactSection showTitle={false} />
     </>

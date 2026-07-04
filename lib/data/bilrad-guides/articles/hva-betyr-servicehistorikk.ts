@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Når du vurderer bruktbiler, er servicehistorikk en av de viktigste tingene å se på. Den forteller hvordan bilen er tatt vare på over tid – og gir deg et bedre bilde enn kilometerstand alene. Enten du handler hos en bilforhandler i Sarpsborg, besøker en bilbutikk i Fredrikstad eller ser på bruktbil annet sted i Østfold, bør du alltid spørre om historikken.",
+    text: "Når du vurderer bruktbiler, er servicehistorikk en av de viktigste tingene å se på. Den forteller hvordan bilen er tatt vare på over tid – og gir deg et bedre bilde enn kilometerstand alene. Be alltid om historikken, uansett hvor du handler.",
   },
   {
     type: "heading",
@@ -74,4 +74,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Vurderer du bruktbil i Østfold? Hos TN Autopartner deler vi servicehistorikk og tilstand så langt vi kan – ta kontakt for en uforpliktende prat.";
+  "Vurderer du bruktbil hos oss? Vi deler servicehistorikk og tilstand så langt vi kan – ta kontakt for en uforpliktende prat.";

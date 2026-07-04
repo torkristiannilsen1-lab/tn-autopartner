@@ -3,7 +3,7 @@ import type { BilradGuideSection } from "@/types/bilrad-guide";
 export const sections: BilradGuideSection[] = [
   {
     type: "paragraph",
-    text: "Alle bruktbiler har slitasje. Det er helt normalt – en bil er til for å brukes. Utfordringen ved bruktbilkjøp er å skille mellom det som er forventet slitasje, og det som kan bli dyrt å utbedre. Dette er noe vi ofte snakker om med kunder som ser på bruktbil hos oss i Sarpsborg, Fredrikstad og resten av Østfold.",
+    text: "Alle bruktbiler har slitasje. Det er helt normalt – en bil er til for å brukes. Utfordringen ved bruktbilkjøp er å skille mellom det som er forventet slitasje, og det som kan bli dyrt å utbedre.",
   },
   {
     type: "heading",
@@ -67,9 +67,9 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "En bruktbil krever vedlikehold fremover. Sett av penger til service, EU-kontroll og utskifting av slitedeler. Det er en del av å eie bil, uansett om du kjøper i en bilbutikk i Fredrikstad, hos en bilforhandler i Sarpsborg eller andre steder. Jo bedre du holder bilen, desto lenger varer den – og desto færre overraskelser får du.",
+    text: "En bruktbil krever vedlikehold fremover. Sett av penger til service, EU-kontroll og utskifting av slitedeler. Det er en del av å eie bil, uansett hvor du kjøpte den. Jo bedre du holder bilen, desto lenger varer den – og desto færre overraskelser får du.",
   },
 ];
 
 export const cta =
-  "Usikker på hva som er normal slitasje på en bruktbil du vurderer? Ta kontakt med TN Autopartner – vi forklarer gjerne tilstanden ærlig og tydelig.";
+  "Lurer du på tilstanden til en bil du har sett hos oss? Send oss en melding – vi forklarer gjerne hva som er normal slitasje og hva du bør være obs på.";
