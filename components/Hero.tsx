@@ -42,7 +42,7 @@ export function Hero() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <h1 className="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-white md:text-6xl lg:text-7xl">
-            Bruktbil i Borgenhaugen og Østfold
+            Bruktbil på Borgenhaugen i Sarpsborg
           </h1>
         </FadeIn>
         <FadeIn delay={0.2}>

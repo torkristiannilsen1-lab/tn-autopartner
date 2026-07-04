@@ -10,7 +10,7 @@ export function AboutPreview() {
           <FadeIn>
             <SectionTitle
               title="Om oss"
-              subtitle="TN Autopartner AS er en bruktbilforhandler i Borgenhaugen, nær Sarpsborg. Vi kjøper og selger biler, og legger vekt på ærlig informasjon og klare avtaler."
+              subtitle="TN Autopartner AS er en bruktbilforhandler på Borgenhaugen i Sarpsborg. Vi kjøper og selger biler, og legger vekt på ærlig informasjon og klare avtaler."
             />
           </FadeIn>
           <FadeIn delay={0.1}>

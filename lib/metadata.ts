@@ -6,7 +6,7 @@ const defaultOgImage = `${SITE_URL}/images/logo.png`;
 export const baseMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Bruktbil i Borgenhaugen og Østfold`,
+    default: `${SITE_NAME} | Bruktbil på Borgenhaugen i Sarpsborg`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -30,7 +30,7 @@ export const baseMetadata: Metadata = {
     locale: "nb_NO",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} | Bruktbil i Borgenhaugen og Østfold`,
+    title: `${SITE_NAME} | Bruktbil på Borgenhaugen i Sarpsborg`,
     description: SITE_DESCRIPTION,
     images: [
       {
@@ -43,7 +43,7 @@ export const baseMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} | Bruktbil i Borgenhaugen og Østfold`,
+    title: `${SITE_NAME} | Bruktbil på Borgenhaugen i Sarpsborg`,
     description: SITE_DESCRIPTION,
     images: [defaultOgImage],
   },
