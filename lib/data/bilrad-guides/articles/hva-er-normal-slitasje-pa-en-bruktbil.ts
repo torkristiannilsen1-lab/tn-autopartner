@@ -72,4 +72,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Lurer du på tilstanden til en bil du har sett hos oss? Send oss en melding – vi forklarer gjerne hva som er normal slitasje og hva du bør være obs på.";
+  "Lurer du på en bil du har sett hos oss? Send oss en melding.";

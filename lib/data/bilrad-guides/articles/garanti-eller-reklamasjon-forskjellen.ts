@@ -52,7 +52,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Reklamasjon har tidsfrister som avhenger av type handel og hva som er avtalt. Du bør reklamere innen rimelig tid etter at du oppdager en feil. Jo raskere du tar kontakt, desto enklere er det å dokumentere og håndtere saken. En seriøs forhandler tar reklamasjoner på alvor og behandler dem ryddig.",
+    text: "Reklamasjon har tidsfrister som avhenger av type handel og hva som er avtalt. Du bør reklamere innen rimelig tid etter at du oppdager en feil. Jo raskere du tar kontakt, desto enklere er det å dokumentere og håndtere saken.",
   },
   {
     type: "heading",
@@ -64,11 +64,11 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "heading",
-    text: "Slik håndterer en seriøs bilforhandler saker",
+    text: "Slik håndteres slike saker",
   },
   {
     type: "paragraph",
-    text: "En god bilforhandler ønsker å løse saker ryddig. Det betyr tydelig kommunikasjon, ærlig vurdering av om feilen faller innenfor garanti, reklamasjon eller normal slitasje, og at du får svar på hva som skjer videre. Vi kan ikke garantere at alle saker løses slik du håper – men vi behandler dem ærlig og i tråd med avtalen.",
+    text: "En god bilforhandler ønsker å løse saker ryddig. Det betyr tydelig kommunikasjon og vurdering av om feilen faller innenfor garanti, reklamasjon eller normal slitasje. Vi behandler saker i tråd med avtalen.",
   },
   {
     type: "heading",

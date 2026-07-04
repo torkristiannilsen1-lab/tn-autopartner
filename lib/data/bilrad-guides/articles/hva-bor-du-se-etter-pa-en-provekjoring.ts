@@ -61,7 +61,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Hos en seriøs bilforhandler er prøvekjøring en naturlig del av prosessen. Du bør få tid nok til å kjenne på bilen, og det er helt greit å stille spørsmål underveis. En god forhandler sier ifra om kjente svakheter ved modellen og hva du bør være obs på – uten å skjule det som er relevant.",
+    text: "Hos en bilforhandler er prøvekjøring en naturlig del av prosessen. Du bør få tid nok til å kjenne på bilen, og det er helt greit å stille spørsmål underveis.",
   },
   {
     type: "heading",

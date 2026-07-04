@@ -47,8 +47,8 @@ export function Hero() {
         </FadeIn>
         <FadeIn delay={0.2}>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
-            Vi kjøper og selger bruktbiler med ærlig informasjon om tilstand og
-            historikk. Tydelige avtaler – fra første prat til du kjører hjem.
+            Vi kjøper og selger bruktbiler på Borgenhaugen i Sarpsborg.
+            Ta gjerne kontakt – vi hjelper deg videre med det du lurer på.
           </p>
         </FadeIn>
         <FadeIn delay={0.3}>

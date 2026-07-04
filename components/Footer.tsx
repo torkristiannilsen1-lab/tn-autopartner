@@ -18,7 +18,7 @@ export function Footer() {
             </Link>
             <p className="text-sm leading-relaxed text-muted">
               Bruktbilforhandler på Borgenhaugen i Sarpsborg. Vi kjøper
-              og selger biler med tydelig informasjon og klare avtaler.
+              og selger biler.
             </p>
           </div>
 

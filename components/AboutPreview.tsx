@@ -10,15 +10,13 @@ export function AboutPreview() {
           <FadeIn>
             <SectionTitle
               title="Om oss"
-              subtitle="TN Autopartner AS er en bruktbilforhandler på Borgenhaugen i Sarpsborg. Vi kjøper og selger biler, og legger vekt på ærlig informasjon og klare avtaler."
+              subtitle="TN Autopartner AS er en bruktbilforhandler på Borgenhaugen i Sarpsborg. Vi kjøper og selger biler, og legger vekt på klare avtaler og god dialog."
             />
           </FadeIn>
           <FadeIn delay={0.1}>
             <p className="leading-relaxed text-muted">
-              Vi selger biler vi kan stå for, og forteller deg det du trenger å
-              vite om tilstand og historikk før du kjøper. Har du spørsmål
-              underveis, er det bare å ta kontakt — vi er tilgjengelige både før
-              du kjøper og etter at bilen er levert.
+              Vi har et utvalg bruktbiler til salgs. Ta gjerne kontakt hvis du
+              lurer på noe om bilene vi har inne, eller om prosessen videre.
             </p>
             <Button href="/om-oss" variant="outline" size="lg" className="mt-8">
               Les mer om oss

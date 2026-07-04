@@ -78,4 +78,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Skal du kjøpe bruktbil og vil vite mer om servicebehov? Vi deler gjerne det vi vet – ta kontakt for en prat.";
+  "Skal du kjøpe bruktbil og vil vite mer om servicebehov? Ta kontakt for en prat.";

@@ -5,7 +5,7 @@ import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata(
   "Om oss",
-  "TN Autopartner AS er en bruktbilforhandler i Borgenhaugen nær Sarpsborg. Vi kjøper og selger biler med tydelig informasjon og klare avtaler.",
+  "TN Autopartner AS er en bruktbilforhandler på Borgenhaugen i Sarpsborg. Vi kjøper og selger biler.",
   "/om-oss",
 );
 
@@ -14,7 +14,7 @@ export default function OmOssPage() {
     <>
       <PageHeader
         title="Om TN Autopartner"
-        subtitle="En bruktbilforhandler i Borgenhaugen, nær Sarpsborg. Vi kjøper og selger biler, og legger vekt på ærlig informasjon og klare avtaler."
+        subtitle="En bruktbilforhandler på Borgenhaugen i Sarpsborg. Vi kjøper og selger biler."
       />
       <section className="section-padding !pt-0">
         <div className="container-main space-y-16">
@@ -23,16 +23,16 @@ export default function OmOssPage() {
               <p className="text-lg leading-relaxed text-muted">
                 TN Autopartner drives av Tor Nilsen, som har jobbet i bilbransjen i 17
                 år og med kjøp og salg av bruktbiler de siste 10 årene. Som utdannet
-                bilmekaniker har han et solid teknisk grunnlag, noe som gjør det
-                enklere å vurdere bilenes tilstand og kvalitet før de legges ut for
-                salg.
+                bilmekaniker har han bakgrunn i bilbransjen og mekanikk – noe som
+                er nyttig når biler skal legges ut for salg.
               </p>
               <p className="leading-relaxed text-muted">
                 Gjennom mange år i bransjen har han lært at en god bilhandel handler om
-                mer enn selve bilen. Det handler om å gi ærlige råd, skape realistiske
-                forventninger og være tilgjengelig når kunden trenger hjelp. Målet er
-                at du skal føle deg trygg gjennom hele prosessen, enten du kjøper din
-                første bil eller har handlet mange ganger tidligere.
+                mer enn selve bilen. Det handler om å svare på det du lurer på,
+                skape realistiske forventninger og være tilgjengelig når kunden
+                trenger hjelp. Målet er at du skal føle deg trygg gjennom hele
+                prosessen, enten du kjøper din første bil eller har handlet mange
+                ganger tidligere.
               </p>
               <p className="leading-relaxed text-muted">
                 Vi ønsker selvsagt å selge biler. Samtidig mener vi at den beste måten
@@ -51,14 +51,12 @@ export default function OmOssPage() {
               <p className="leading-relaxed text-muted">
                 Det vi streber etter, er å være en ryddig samarbeidspartner også
                 etter at bilen er levert. Vi tilbyr garanti etter avtale, og
-                behandler reklamasjoner profesjonelt i tråd med avtalen og
-                gjeldende regelverk. Hva som dekkes, står i kjøpekontrakten.
-                Skulle noe uforutsett oppstå, ønsker vi å finne gode løsninger
-                og behandle saken på en rettferdig måte.
+                behandler reklamasjoner i tråd med avtalen og gjeldende
+                regelverk. Hva som dekkes, står i kjøpekontrakten.
               </p>
               <p className="leading-relaxed text-muted">
-                Hos TN Autopartner ønsker vi at du skal oppleve en enkel, ærlig og
-                forutsigbar bilhandel – fra første kontakt til bilen står hjemme på
+                Hos TN Autopartner ønsker vi at du skal oppleve en enkel og
+                oversiktlig bilhandel – fra første kontakt til bilen står hjemme på
                 gårdsplassen.
               </p>
             </div>

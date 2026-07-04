@@ -113,7 +113,7 @@ export const bilradGuides: BilradGuide[] = [
       slug: "garanti-eller-reklamasjon-forskjellen",
       title: "Garanti eller reklamasjon – hva er forskjellen?",
       ingress:
-        "Garanti og reklamasjon er to ulike begreper som ofte blir blandet sammen. Vi gjør det enklere å forstå hva du har krav på, og hvordan en seriøs bilforhandler håndterer slike saker.",
+        "Garanti og reklamasjon er to ulike begreper som ofte blir blandet sammen. Vi forklarer forskjellen og hva du bør være oppmerksom på.",
     },
     guideGarantiReklamasjon,
   ),

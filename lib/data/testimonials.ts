@@ -6,7 +6,7 @@ export const testimonials: Testimonial[] = [
     name: "Erik",
     location: "Fredrikstad",
     rating: 5,
-    text: "Grei og oversiktlig handel. Jeg fikk den informasjonen jeg trengte om bilen, og det var ingen overraskelser i etterkant.",
+    text: "Grei og oversiktlig handel. Jeg fikk svar på det jeg lurte på om bilen.",
   },
   {
     id: "2",

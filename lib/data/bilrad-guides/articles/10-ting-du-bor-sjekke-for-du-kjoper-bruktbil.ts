@@ -71,7 +71,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Spør om bilen har vært involvert i ulykker eller hatt større skader. Mange bruktbiler har hatt mindre bulker som er reparert – det i seg selv er ikke alltid et problem. Det viktige er at du får ærlig informasjon. Mange eierbytte kan også si noe om hvordan bilen er brukt, men det er ikke alltid negativt.",
+    text: "Spør om bilen har vært involvert i ulykker eller hatt større skader. Mange bruktbiler har hatt mindre bulker som er reparert – det i seg selv er ikke alltid et problem. Det viktige er at du får svar på det du spør om. Mange eierbytte kan også si noe om hvordan bilen er brukt, men det er ikke alltid negativt.",
   },
   {
     type: "heading",
@@ -87,7 +87,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Les avtalen nøye. Spør hva som dekkes av bruktbilgaranti, og hva som regnes som normal slitasje og dermed ditt ansvar. Garanti og reklamasjon er ikke det samme, og reglene avhenger av om du handler privat eller hos en bilforhandler. En seriøs forhandler forklarer dette tydelig – uten å love mer enn det som faktisk står i avtalen.",
+    text: "Les avtalen nøye. Spør hva som dekkes av bruktbilgaranti, og hva som regnes som normal slitasje og dermed ditt ansvar. Garanti og reklamasjon er ikke det samme, og reglene avhenger av om du handler privat eller hos en bilforhandler. Det som står i avtalen, er det som gjelder.",
   },
   {
     type: "heading",

@@ -45,7 +45,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Mange kombinerer innbytte med billån. Du får da finansiering på differansen mellom bilens pris og innbytteverdien. En seriøs bilforhandler gir deg oversikt over total kostnad, renter og avdrag før du forplikter deg. Les avtalen og forstå hva du betaler totalt over låneperioden.",
+    text: "Mange kombinerer innbytte med billån. Du får da finansiering på differansen mellom bilens pris og innbytteverdien. Be om oversikt over total kostnad, renter og avdrag før du forplikter deg.",
   },
   {
     type: "heading",
@@ -56,7 +56,7 @@ export const sections: BilradGuideSection[] = [
     items: [
       "Vask bilen og fjern personlige eiendeler",
       "Samle servicehistorikk og dokumenter du har",
-      "Vær ærlig om skader og feil – det kommer uansett frem ved vurdering",
+      "Oppgi skader og feil du kjenner til – det kommer uansett frem ved vurdering",
       "Sammenlign gjerne innbyttetilbud med hva privat salg realistisk kan gi",
       "Sjekk at du har alle nøkler, vinterdekk og tilbehør som følger med",
     ],
@@ -75,7 +75,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Vi vurderer innbyttebilen din ærlig og gir et tydelig tilbud. Målet er at du skal forstå hva du får, hva du betaler og hva som skjer videre. Innbytte skal gjøre bilbyttet enklere – ikke skjule detaljer.",
+    text: "Vi vurderer innbyttebilen din og gir et tydelig tilbud. Målet er at du skal forstå hva du får, hva du betaler og hva som skjer videre.",
   },
 ];
 

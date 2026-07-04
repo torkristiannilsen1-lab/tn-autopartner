@@ -56,7 +56,7 @@ export default function InnbyttePage() {
           <FadeIn delay={0.1}>
             <div className="mx-auto max-w-2xl text-center">
               <p className="leading-relaxed text-muted">
-                Vi gir deg en rettferdig pris for innbyttebilen og gjør overgangen til
+                Vi gir deg et tilbud på innbyttebilen og gjør overgangen til
                 ny bil enkel.
               </p>
               <Button href="/kontakt" size="lg" className="mt-8">

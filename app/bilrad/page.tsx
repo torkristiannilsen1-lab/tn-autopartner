@@ -7,7 +7,7 @@ import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata(
   "Bilråd",
-  "Praktiske råd om kjøp, salg og eierskap av bruktbil. TN Autopartner deler erfaringer fra bilbransjen for å hjelpe deg tryggere gjennom bilhandelen.",
+  "Praktiske råd om kjøp, salg og eierskap av bruktbil. Erfaringer og tips fra bilbransjen.",
   "/bilrad",
 );
 
@@ -23,12 +23,9 @@ export default function BilradPage() {
           <FadeIn>
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-lg leading-relaxed text-muted">
-                Hos TN Autopartner deler vi råd og erfaringer fra mange år som
-                bilforhandler i Borgenhaugen. Enten du skal kjøpe din første
-                bruktbil eller har handlet biler før, håper guidene og tipsene våre
-                gjør deg tryggere i valget. Her finner du praktiske guider om alt
-                fra servicehistorikk og prøvekjøring til billån, innbytte og
-                bruktbilgaranti.
+                Her finner du praktiske guider om kjøp, salg og eierskap av
+                bruktbil – fra servicehistorikk og prøvekjøring til billån,
+                innbytte og bruktbilgaranti.
               </p>
             </div>
           </FadeIn>

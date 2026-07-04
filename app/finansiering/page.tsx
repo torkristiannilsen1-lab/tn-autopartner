@@ -24,7 +24,7 @@ const benefits = [
   "Personlig hjelp gjennom hele søknaden",
   "Du får vanligvis svar samme dag på hverdager",
   "Samarbeid med etablerte banker og finansselskap",
-  "Full oversikt over totalkostnaden før du signerer",
+  "Vi går gjennom vilkårene sammen med deg før du signerer",
 ];
 
 export default function FinansieringPage() {

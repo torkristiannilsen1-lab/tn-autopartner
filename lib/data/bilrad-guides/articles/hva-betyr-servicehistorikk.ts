@@ -53,7 +53,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Når du kjøper bruktbil hos en bilforhandler, bør du få tilgang til den historikken som finnes. En seriøs forhandler deler det de vet, og sier fra hvis noe mangler. Servicehistorikk er en del av grunnlaget for vurderingen av bilen – både for pris og for hva du kan forvente fremover.",
+    text: "Når du kjøper bruktbil hos en bilforhandler, bør du få tilgang til den historikken som finnes. Be om det som er tilgjengelig, og sjekk at det stemmer med bilens alder og kilometerstand.",
   },
   {
     type: "heading",
@@ -74,4 +74,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Vurderer du bruktbil hos oss? Vi deler servicehistorikk og tilstand så langt vi kan – ta kontakt for en uforpliktende prat.";
+  "Vurderer du bruktbil hos oss? Ta kontakt for en uforpliktende prat.";

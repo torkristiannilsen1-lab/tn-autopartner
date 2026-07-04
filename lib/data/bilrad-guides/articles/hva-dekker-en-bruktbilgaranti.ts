@@ -67,11 +67,11 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "heading",
-    text: "En ærlig forventning",
+    text: "En realistisk forventning",
   },
   {
     type: "paragraph",
-    text: "Bruktbilgaranti kan gi trygghet, men den løser ikke alt. En bruktbil må vedlikeholdes, og feil kan oppstå uansett. En seriøs bilforhandler forklarer hva garantien dekker – uten å gi inntrykk av at du aldri vil ha utgifter som bileier. Det er en balanse mellom trygghet og realisme.",
+    text: "Bruktbilgaranti kan gi trygghet, men den løser ikke alt. En bruktbil må vedlikeholdes, og feil kan oppstå uansett. Les garantivilkårene nøye – det er de som avgjør hva som dekkes.",
   },
 ];
 

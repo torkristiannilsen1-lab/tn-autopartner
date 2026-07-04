@@ -65,7 +65,7 @@ export const sections: BilradGuideSection[] = [
   },
   {
     type: "paragraph",
-    text: "Sjekk rente, gebyrer, mulighet for ekstra avdrag og hva som skjer ved forsinket betaling. Spør om det du ikke forstår. En seriøs bilforhandler tar seg tid til å forklare – uten å presse deg til å signere raskt.",
+    text: "Sjekk rente, gebyrer, mulighet for ekstra avdrag og hva som skjer ved forsinket betaling. Spør om det du ikke forstår, og les avtalen før du signerer.",
   },
   {
     type: "heading",

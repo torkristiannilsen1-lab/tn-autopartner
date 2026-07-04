@@ -68,4 +68,4 @@ export const sections: BilradGuideSection[] = [
 ];
 
 export const cta =
-  "Usikker på registerreim på en bil du vurderer hos oss? Ta kontakt – vi deler det vi vet om servicehistorikken.";
+  "Usikker på registerreim på en bil du vurderer hos oss? Ta kontakt – så ser vi på det sammen.";

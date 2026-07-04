@@ -4,9 +4,9 @@ import type { ServiceItem } from "@/types/service";
 export const services: ServiceItem[] = [
   {
     id: "quality",
-    title: "Kontrollerte biler",
+    title: "Utvalgte biler",
     description:
-      "Vi går gjennom bilene før salg og forteller deg om tilstand og historikk så langt vi kjenner den. Vi pynter ikke på fakta.",
+      "Se vårt utvalg og ta kontakt hvis du vil vite mer om en bestemt bil.",
     icon: ShieldCheck,
   },
   {
