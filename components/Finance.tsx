@@ -40,10 +40,8 @@ export function Finance() {
               </p>
               <p className="mt-4 text-4xl font-semibold text-white">Fra 3 490 kr/mnd</p>
               <p className="mt-4 leading-relaxed text-muted">
-                Representativt eksempel: lånebeløp 170 000 kr, nedbetalingstid 5
-                år, nominell rente 7,9 % p.a., eff. rente 8,24 % p.a., totalkostnad
-                209 400 kr. Månedskostnaden avhenger av bil, egenkapital og
-                kredittvurdering.
+                Månedskostnaden avhenger av bil, lånebeløp, egenkapital og
+                kredittvurdering. Ta kontakt for et uforpliktende tilbud.
               </p>
             </div>
           </FadeIn>
