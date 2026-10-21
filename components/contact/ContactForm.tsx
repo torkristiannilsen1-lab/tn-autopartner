@@ -15,8 +15,8 @@ const initialForm: ContactFormData = {
   message: "",
 };
 
-export function ContactForm() {
-  const [form, setForm] = useState<ContactFormData>(initialForm);
+export function ContactForm({ initialMessage = "" }: { initialMessage?: string }) {
+  const [form, setForm] = useState<ContactFormData>({ ...initialForm, message: initialMessage });
   const [errors, setErrors] = useState<ContactFormErrors>({});
   const [submitError, setSubmitError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -59,7 +59,7 @@ export function ContactForm() {
       }
 
       setSubmitted(true);
-      setForm(initialForm);
+      setForm({ ...initialForm, message: initialMessage });
       setErrors({});
     } catch {
       setSubmitError("Kunne ikke sende meldingen. Sjekk nettverket og prøv igjen.");

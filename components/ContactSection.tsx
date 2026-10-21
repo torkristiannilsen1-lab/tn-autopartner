@@ -6,17 +6,25 @@ import { CONTACT, MAP_EMBED_URL, OPENING_HOURS } from "@/lib/constants";
 
 interface ContactSectionProps {
   showTitle?: boolean;
+  title?: string;
+  subtitle?: string;
+  initialMessage?: string;
 }
 
-export function ContactSection({ showTitle = true }: ContactSectionProps) {
+export function ContactSection({
+  showTitle = true,
+  title = "Kontakt",
+  subtitle = "Har du spørsmål om en bil, finansiering eller innbytte? Ta kontakt, så hjelper vi deg.",
+  initialMessage,
+}: ContactSectionProps) {
   return (
-    <section id="kontakt" className="section-padding">
+    <section id="kontakt" className="section-padding scroll-mt-20">
       <div className="container-main">
         {showTitle && (
           <FadeIn>
             <SectionTitle
-              title="Kontakt"
-              subtitle="Har du spørsmål om en bil, finansiering eller innbytte? Ta kontakt, så hjelper vi deg."
+              title={title}
+              subtitle={subtitle}
             />
           </FadeIn>
         )}
@@ -77,7 +85,7 @@ export function ContactSection({ showTitle = true }: ContactSectionProps) {
           <FadeIn delay={0.1} direction="left">
             <div className="rounded-2xl border border-white/10 bg-secondary/60 p-8 backdrop-blur-md">
               <h3 className="mb-6 text-xl font-semibold text-white">Send oss en melding</h3>
-              <ContactForm />
+              <ContactForm initialMessage={initialMessage} />
             </div>
           </FadeIn>
         </div>

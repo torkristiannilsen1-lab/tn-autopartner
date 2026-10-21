@@ -30,6 +30,7 @@ export const OPENING_HOURS = [
 
 export const NAV_LINKS = [
   { href: "/biler", label: "Biler" },
+  { href: "/mopedbil", label: "Mopedbil" },
   { href: "/finansiering", label: "Finansiering" },
   { href: "/innbytte", label: "Innbytte" },
   { href: "/bilrad", label: "Bilråd" },

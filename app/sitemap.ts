@@ -8,6 +8,7 @@ export const revalidate = 600;
 const routes = [
   "",
   "/biler",
+  "/mopedbil",
   "/finansiering",
   "/innbytte",
   "/bilrad",
