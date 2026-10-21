@@ -18,7 +18,7 @@ export function ContactSection({
   initialMessage,
 }: ContactSectionProps) {
   return (
-    <section id="kontakt" className="section-padding scroll-mt-20">
+    <section id="kontakt" className="section-padding scroll-mt-20 overflow-x-clip">
       <div className="container-main">
         {showTitle && (
           <FadeIn>
