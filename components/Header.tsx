@@ -40,7 +40,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              aria-current={pathname === link.href ? "page" : undefined}
+              aria-current={pathname === link.href || pathname.startsWith(`${link.href}/`) ? "page" : undefined}
               className="whitespace-nowrap text-sm font-medium text-white/80 transition-colors hover:text-white aria-[current=page]:text-white aria-[current=page]:underline aria-[current=page]:decoration-primary aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-8"
             >
               {link.label}
@@ -73,7 +73,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                aria-current={pathname === link.href ? "page" : undefined}
+                aria-current={pathname === link.href || pathname.startsWith(`${link.href}/`) ? "page" : undefined}
                 className="text-base font-medium text-white/90"
                 onClick={() => setMobileOpen(false)}
               >

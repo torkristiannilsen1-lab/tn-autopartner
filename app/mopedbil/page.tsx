@@ -11,7 +11,7 @@ import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata(
   "Mopedbil fra Ligier",
-  "TN Autopartner satser på mopedbil fra Ligier. De første bilene er bestilt. Kontakt oss på Borgenhaugen i Sarpsborg for informasjon om utvalg og levering.",
+  "Sort, elektrisk Ligier JS60 Ultimate er bestilt som demobil hos TN Autopartner i Sarpsborg. Levering tidligst 2027. Meld interesse for visning og prøvekjøring.",
   "/mopedbil",
 );
 
@@ -36,11 +36,11 @@ const steps = [
 const questions = [
   {
     title: "Har dere mopedbiler på lager nå?",
-    answer: "De første bilene er bestilt. Vi oppdaterer siden med tilgjengelige biler når de er på plass. Ta kontakt hvis du vil vite mer om status og forventet levering.",
+    answer: "Vi har bestilt en sort, elektrisk Ligier JS60 Ultimate som demobil, med levering tidligst i 2027. Den er ennå ikke på plass. Meld interesse, så tar vi kontakt når vi kan avtale visning og prøvekjøring.",
   },
   {
     title: "Hvilke merker og modeller tilbyr dere?",
-    answer: "Mopedbilsatsingen vår er rettet mot Ligier. Vi legger ut de konkrete modellene med utstyr og priser når dette er klart. Bilen på bildet er en Ligier JS50 og er vist som illustrasjon.",
+    answer: "Mopedbilsatsingen vår er rettet mot Ligier. Vår bestilte demobil er en elektrisk JS60 Ultimate i sort, med klimaanlegg, servostyring, oppvarmet førersete og vinterpakke. Bildet er et modellbilde fra Ligier.",
   },
   {
     title: "Kan jeg avtale visning eller prøvekjøring?",
@@ -53,7 +53,7 @@ export default function MopedbilPage() {
     <>
       <PageHeader
         title="Mopedbil fra Ligier"
-        subtitle="Mer frihet i hverdagen. Nå satser TN Autopartner på mopedbil – og de første bilene er bestilt."
+        subtitle="Vår sorte, elektriske JS60 Ultimate er bestilt som demobil. Levering tidligst i 2027."
       />
 
       <section className="section-padding" aria-labelledby="ligier-heading">
@@ -65,42 +65,41 @@ export default function MopedbilPage() {
                   LIGIER
                 </span>
                 <Image
-                  src="/images/mopedbil/ligier-js50.webp"
-                  alt="Blå Ligier JS50 mopedbil sett skrått forfra"
-                  width={1191}
-                  height={842}
+                  src="/images/mopedbil/demobil/ligier-js60-sort.webp"
+                  alt="Sort Ligier JS60 Ultimate, modellbilde fra Ligier"
+                  width={1100}
+                  height={720}
                   sizes="(max-width: 1023px) 100vw, 560px"
                   priority
                   className="h-auto w-full"
                 />
               </div>
               <figcaption className="mt-4 text-sm leading-relaxed text-muted">
-                Illustrasjonsfoto: Ligier JS50. Modell, farge og utstyr kan avvike
-                fra bilene vi har bestilt.
+                Modellbilde fra Ligier. Demobilen vår er bestilt i sort.
+                Detaljer kan avvike.
               </figcaption>
             </figure>
 
             <div>
               <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-white">
                 <Check size={16} className="text-primary" aria-hidden="true" />
-                De første bilene er bestilt
+                Sort, elektrisk demobil bestilt
               </p>
               <h2 id="ligier-heading" className="text-3xl font-semibold tracking-tight text-white md:text-4xl">
-                En liten bil.<br />En stor start.
+                Ligier JS60 Ultimate.<br />Vår nye demobil.
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-muted">
-                Til skolen, trening eller en tur med venner. En mopedbil kan gi
-                mer selvstendighet og gjøre hverdagen enklere.
+                Elektrisk drivlinje, sort farge og komfortutstyr vi gleder oss
+                til å vise frem. Nå har vi bestilt demobilen til vår Ligier-satsing.
               </p>
               <p className="mt-4 leading-relaxed text-muted">
-                Vi starter en ny satsing med Ligier og gleder oss til å vise frem
-                bilene. Hos oss får du personlig hjelp til å finne ut hva som
-                passer for deg. Vi publiserer modeller, priser og levering så
-                snart opplysningene er klare.
+                Bilen er bestilt med klimaanlegg, servostyring, oppvarmet førersete
+                og vinterpakke. Levering er tidligst i 2027. Meld interesse,
+                så tar vi kontakt når den er klar for visning eller prøvekjøring.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <Button href="#kontakt" size="lg">
-                  Spør oss om Ligier <ArrowRight size={18} aria-hidden="true" />
+                <Button href="/mopedbil/ligier-js60-ultimate" size="lg">
+                  Se vår JS60 Ultimate <ArrowRight size={18} aria-hidden="true" />
                 </Button>
                 <Button href={CONTACT.phoneHref} variant="outline" size="lg">
                   <Phone size={18} aria-hidden="true" /> Ring oss

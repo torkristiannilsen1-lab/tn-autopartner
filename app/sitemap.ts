@@ -9,6 +9,7 @@ const routes = [
   "",
   "/biler",
   "/mopedbil",
+  "/mopedbil/ligier-js60-ultimate",
   "/finansiering",
   "/innbytte",
   "/bilrad",
