@@ -54,5 +54,25 @@
     "prompt_set": "imagegen-prompts-sort-fargeendring.txt",
     "source": "Two licensed actual photographs; no vehicle generation from scratch",
     "disclosure": "Visible edited-colour badge, caption, modification credit and FAQ. Diesel variant vs ordered electric demo remains disclosed."
+  },
+  "advertising_poster": {
+    "file": "ligier-js60-ultimate-demobil-plakat-sort.webp",
+    "download_file": "ligier-js60-ultimate-demobil-plakat-sort.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "photo_source": "https://commons.wikimedia.org/wiki/File:2026_Ligier_JS60_Ultimate.jpg",
+    "photo_author": "Js60ultim",
+    "photo_licence": "CC BY4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Uses the approved black recoloured photograph. Outdoor background removed and replaced with studio background; photograph composited with corrected TN logo and poster typography using built-in imagegen. Colour/background changes, photographed diesel variant and ordered electric demo disclosed in poster footer and web caption.",
+    "source_inputs": [
+      "Approved licensed black recoloured front photograph",
+      "Corrected TN Autopartner logo, slogan DIN PARTNER PÅ VEIEN"
+    ],
+    "old_unlicensed_poster_input": false,
+    "prompt_file": "imagegen-prompt-reklameplakat-sort.txt",
+    "sha256_png": "ec4e297e797a58c245391a5f2b0952262a3bdd1b1db10ff015c81fbe957a2395"
   }
 }

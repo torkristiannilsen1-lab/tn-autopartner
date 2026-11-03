@@ -4,7 +4,7 @@ import { Card } from "@/components/Card";
 import { ContactSection } from "@/components/ContactSection";
 import { FadeIn } from "@/components/FadeIn";
 import { PageHeader } from "@/components/PageHeader";
-import { MopedbilPhoto } from "@/components/MopedbilPhoto";
+import { MopedbilPoster } from "@/components/MopedbilPoster";
 import { SectionTitle } from "@/components/SectionTitle";
 import { CONTACT } from "@/lib/constants";
 import { createPageMetadata } from "@/lib/metadata";
@@ -59,7 +59,7 @@ export default function MopedbilPage() {
       <section className="section-padding" aria-labelledby="ligier-heading">
         <div className="container-main">
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-            <MopedbilPhoto priority view="side" />
+            <MopedbilPoster priority />
 
             <div>
               <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-white">
