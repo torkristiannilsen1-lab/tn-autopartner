@@ -12,10 +12,16 @@
         1156,
         989
       ],
-      "file": "ligier-js60-ultimate-2026-front-cc-by.webp",
-      "modifications": "JPEG converted to WebP. Original dimensions retained; no crop, stretch, colour change or AI editing.",
-      "pictured_vehicle": "Grey 2026 Mk2 JS60 Ultimate 0.5 dCi; not the black electric ordered TN demo",
-      "sha256_webp": "17bf53c72dd7f366f6e5a5de62c3d62c840daf93c193732265400bf124e25a09"
+      "file": "ligier-js60-ultimate-2026-sort-front-cc-by.webp",
+      "modifications": "Body paint digitally changed from grey to glossy black with built-in imagegen at owner request. Converted to WebP without additional resizing, cropping or stretching. Model photograph, not the actual ordered electric demo.",
+      "pictured_vehicle": "Original photo: grey2026 Mk2 JS60 Ultimate0.5 dCi. Displayed derivative: body paint digitally recoloured black. Ordered TN demo: black electric.",
+      "sha256_webp": "f6df8aa03e2cff3f31f9da52cb83c52cd913967922d1c7a75c59392a327789d3",
+      "original_unedited_webp": "ligier-js60-ultimate-2026-front-cc-by.webp",
+      "edited_dimensions": [
+        1356,
+        1160
+      ],
+      "modification_credit": "TN Autopartner"
     },
     {
       "title": "Ligier JS60 2026 Ultimate",
@@ -28,13 +34,25 @@
         1130,
         848
       ],
-      "file": "ligier-js60-ultimate-2026-side-cc-by.webp",
-      "modifications": "JPEG converted to WebP. Original dimensions retained; no crop, stretch, colour change or AI editing.",
-      "pictured_vehicle": "Grey 2026 Mk2 JS60 Ultimate 0.5 dCi; not the black electric ordered TN demo",
-      "sha256_webp": "24fc79c26c5d2f59c851404c96a8d99c1f16879971f4f6f998fa16f5e65f1b0a"
+      "file": "ligier-js60-ultimate-2026-sort-side-cc-by.webp",
+      "modifications": "Body paint digitally changed from grey to glossy black with built-in imagegen at owner request. Converted to WebP without additional resizing, cropping or stretching. Model photograph, not the actual ordered electric demo.",
+      "pictured_vehicle": "Original photo: grey2026 Mk2 JS60 Ultimate0.5 dCi. Displayed derivative: body paint digitally recoloured black. Ordered TN demo: black electric.",
+      "sha256_webp": "f912061cb7e1d8d8d90a385479dbceca2b6c73b8b22c46f394cd902bdfdcba9e",
+      "original_unedited_webp": "ligier-js60-ultimate-2026-side-cc-by.webp",
+      "edited_dimensions": [
+        1448,
+        1086
+      ],
+      "modification_credit": "TN Autopartner"
     }
   ],
   "commercial_use": "Permitted by CC BY 4.0 with attribution and licence link; file pages identify own work by Js60ultim",
   "attribution_location": "Visible below each website image; original front-photo author, source and licence also included in Facebook caption",
-  "ai_draft": "Rejected by user; never promoted to production. Manufacturer photos without permission remain withdrawn."
+  "ai_draft": "Earlier fully generated car concept rejected by user and never published. Current images are colour edits of licensed actual model photographs.",
+  "colour_edit": {
+    "mode": "Built-in imagegen edit",
+    "prompt_set": "imagegen-prompts-sort-fargeendring.txt",
+    "source": "Two licensed actual photographs; no vehicle generation from scratch",
+    "disclosure": "Visible edited-colour badge, caption, modification credit and FAQ. Diesel variant vs ordered electric demo remains disclosed."
+  }
 }
