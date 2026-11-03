@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowDown, ArrowLeft, ArrowRight, Check, ChevronRight, Phone, Snowflake } from "lucide-react";
 import { Button } from "@/components/Button";
 import { ContactSection } from "@/components/ContactSection";
+import { MopedbilIllustration } from "@/components/MopedbilIllustration";
 import { CONTACT } from "@/lib/constants";
 import { createPageMetadata } from "@/lib/metadata";
 
@@ -29,7 +30,7 @@ const equipment = [
 
 const questions = [
   { title: "Når kan jeg se og prøve demobilen?", text: "Bilen er bestilt, med levering tidligst i 2027. Meld interesse, så tar vi kontakt når bilen er klar og vi kan avtale visning eller prøvekjøring." },
-  { title: "Kan jeg se egne bilder av demobilen?", text: "Vi legger ut egne bilder når bilen er levert. Vår demobil er bestilt i sort, med elektrisk drivlinje og Ultimate-utstyr." },
+  { title: "Er bildet av den faktiske demobilen?", text: "Nei. Bildet er en AI-generert illustrasjon av en elektrisk mopedbil. Utforming og detaljer kan avvike fra Ligier JS60. Vi legger ut egne bilder når demobilen er levert." },
   { title: "Følger vinterhjul med vinterpakken?", text: "Nei. Vinterpakken er utstyr på bilen. Et sett vinterhjul er et eget tilvalg til 10 000 kr." },
   { title: "Hvordan får jeg pris og leveringstid på en ny bil?", text: "Ta kontakt, så gir vi deg et konkret tilbud med totalpris, utstyr og forventet levering. Avgifter og registreringskostnader bekreftes i tilbudet. Levering er tidligst i 2027." },
 ];
@@ -60,15 +61,7 @@ export default function LigierDemoPage() {
               </div>
               <p className="mt-4 text-sm text-muted">Vi gir deg beskjed når den er klar for visning og prøvekjøring.</p>
             </div>
-            <aside aria-labelledby="order-heading" className="min-w-0 rounded-2xl border border-white/15 border-t-4 border-t-primary bg-secondary/50 p-7 sm:p-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff7373]">Vår bestilte demobil</p>
-              <h2 id="order-heading" className="mt-5 text-3xl font-semibold tracking-tight">Komforten er med.</h2>
-              <ul className="mt-7 space-y-4">
-                {equipment.map((item) => (<li key={item.number} className="flex items-center gap-3 text-white/85"><Check size={18} className="shrink-0 text-primary" aria-hidden="true" />{item.title}</li>))}
-              </ul>
-              <div className="mt-8 border-t border-white/15 pt-6"><p className="text-sm text-muted">Levering tidligst</p><p className="mt-1 text-5xl font-semibold tracking-tight text-white">2027</p></div>
-              <p className="mt-6 text-sm leading-relaxed text-muted">Vi legger ut egne bilder når demobilen er på plass.</p>
-            </aside>
+            <MopedbilIllustration priority />
           </div>
           <dl className="mt-12 grid grid-cols-2 gap-x-6 gap-y-6 border-t border-white/15 pt-7 md:mt-16 md:grid-cols-4">
             {[['Drivlinje', 'Elektrisk'], ['Farge', 'Sort'], ['Utgave', 'Ultimate'], ['Levering', 'Tidligst 2027']].map(([label, value]) => (

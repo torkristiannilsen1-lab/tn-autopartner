@@ -4,6 +4,7 @@ import { Card } from "@/components/Card";
 import { ContactSection } from "@/components/ContactSection";
 import { FadeIn } from "@/components/FadeIn";
 import { PageHeader } from "@/components/PageHeader";
+import { MopedbilIllustration } from "@/components/MopedbilIllustration";
 import { SectionTitle } from "@/components/SectionTitle";
 import { CONTACT } from "@/lib/constants";
 import { createPageMetadata } from "@/lib/metadata";
@@ -58,16 +59,7 @@ export default function MopedbilPage() {
       <section className="section-padding" aria-labelledby="ligier-heading">
         <div className="container-main">
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-            <aside aria-label="Vår bestilte demobil" className="rounded-2xl border border-white/15 border-t-4 border-t-primary bg-secondary/50 p-8 sm:p-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff7373]">TN Autopartner · Demobil bestilt</p>
-              <p className="mt-8 text-6xl font-semibold tracking-tight text-white sm:text-7xl">JS60<span className="block text-3xl text-primary sm:text-4xl">Ultimate.</span></p>
-              <dl className="mt-8 grid grid-cols-2 gap-6 border-t border-white/15 pt-6">
-                {[['Drivlinje', 'Elektrisk'], ['Farge', 'Sort'], ['Levering', 'Tidligst 2027'], ['Status', 'Bestilt']].map(([label, value]) => (
-                  <div key={label}><dt className="text-xs uppercase tracking-widest text-muted">{label}</dt><dd className="mt-2 font-medium text-white">{value}</dd></div>
-                ))}
-              </dl>
-              <p className="mt-8 text-sm leading-relaxed text-muted">Vi legger ut egne bilder når demobilen er på plass.</p>
-            </aside>
+            <MopedbilIllustration priority />
 
             <div>
               <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-white">
