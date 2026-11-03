@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ArrowDown, ArrowRight, Check, Phone } from "lucide-react";
 import { Button } from "@/components/Button";
 import { Card } from "@/components/Card";
@@ -40,7 +39,7 @@ const questions = [
   },
   {
     title: "Hvilke merker og modeller tilbyr dere?",
-    answer: "Mopedbilsatsingen vår er rettet mot Ligier. Vår bestilte demobil er en elektrisk JS60 Ultimate i sort, med klimaanlegg, servostyring, oppvarmet førersete og vinterpakke. Bildet er et modellbilde fra Ligier.",
+    answer: "Vår bestilte demobil er en elektrisk Ligier JS60 Ultimate i sort, med klimaanlegg, servostyring, oppvarmet førersete og vinterpakke.",
   },
   {
     title: "Kan jeg avtale visning eller prøvekjøring?",
@@ -59,27 +58,16 @@ export default function MopedbilPage() {
       <section className="section-padding" aria-labelledby="ligier-heading">
         <div className="container-main">
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-            <figure>
-              <div className="relative overflow-hidden rounded-2xl bg-[#f4f4f4] px-4 pt-6 pb-2 sm:px-8 sm:pt-8">
-                <span className="inline-flex rounded-full bg-black px-4 py-2 text-xs font-semibold tracking-widest text-white">
-                  LIGIER
-                </span>
-                <Image
-                  src="/images/mopedbil/demobil/ligier-js60-sort.webp"
-                  alt="Sort Ligier JS60 Ultimate, modellbilde fra Ligier"
-                  width={1100}
-                  height={720}
-                  sizes="(max-width: 1023px) 100vw, 560px"
-                  unoptimized
-                  priority
-                  className="h-auto w-full"
-                />
-              </div>
-              <figcaption className="mt-4 text-sm leading-relaxed text-muted">
-                Modellbilde fra Ligier. Demobilen vår er bestilt i sort.
-                Detaljer kan avvike.
-              </figcaption>
-            </figure>
+            <aside aria-label="Vår bestilte demobil" className="rounded-2xl border border-white/15 border-t-4 border-t-primary bg-secondary/50 p-8 sm:p-10">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff7373]">TN Autopartner · Demobil bestilt</p>
+              <p className="mt-8 text-6xl font-semibold tracking-tight text-white sm:text-7xl">JS60<span className="block text-3xl text-primary sm:text-4xl">Ultimate.</span></p>
+              <dl className="mt-8 grid grid-cols-2 gap-6 border-t border-white/15 pt-6">
+                {[['Drivlinje', 'Elektrisk'], ['Farge', 'Sort'], ['Levering', 'Tidligst 2027'], ['Status', 'Bestilt']].map(([label, value]) => (
+                  <div key={label}><dt className="text-xs uppercase tracking-widest text-muted">{label}</dt><dd className="mt-2 font-medium text-white">{value}</dd></div>
+                ))}
+              </dl>
+              <p className="mt-8 text-sm leading-relaxed text-muted">Vi legger ut egne bilder når demobilen er på plass.</p>
+            </aside>
 
             <div>
               <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-white">

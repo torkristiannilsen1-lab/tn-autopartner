@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowLeft, ArrowRight, Check, ChevronRight, Phone, Snowflake } from "lucide-react";
 import { Button } from "@/components/Button";
@@ -8,7 +7,7 @@ import { createPageMetadata } from "@/lib/metadata";
 
 const title = "Ligier JS60 Ultimate – sort, elektrisk demobil";
 const description = "Vi har bestilt en sort, elektrisk Ligier JS60 Ultimate som demobil. Med klimaanlegg, servostyring, oppvarmet førersete og vinterpakke. Levering tidligst 2027.";
-const imagePath = "/images/mopedbil/demobil/ligier-js60-sort.webp";
+const imagePath = "/images/logo.png?v=20261103";
 
 export const metadata = {
   ...createPageMetadata(title, description, "/mopedbil/ligier-js60-ultimate"),
@@ -16,7 +15,7 @@ export const metadata = {
     title: "Vår nye Ligier-demobil er bestilt | TN Autopartner",
     description,
     url: "https://tnautopartner.no/mopedbil/ligier-js60-ultimate",
-    images: [{ url: imagePath, width: 1100, height: 720, alt: "Sort Ligier JS60 Ultimate, modellbilde fra Ligier" }],
+    images: [{ url: imagePath, width: 800, height: 350, alt: "TN Autopartner AS – Din partner på veien" }],
   },
   twitter: { card: "summary_large_image" as const, title, description, images: [imagePath] },
 };
@@ -30,7 +29,7 @@ const equipment = [
 
 const questions = [
   { title: "Når kan jeg se og prøve demobilen?", text: "Bilen er bestilt, med levering tidligst i 2027. Meld interesse, så tar vi kontakt når bilen er klar og vi kan avtale visning eller prøvekjøring." },
-  { title: "Er bilen på bildene den faktiske demobilen?", text: "Bildene er modellbilder fra Ligier. Vår demobil er bestilt i sort, med elektrisk drivlinje og Ultimate-utstyr. Vi legger ut egne bilder når den er på plass. Detaljer i modellbildene kan avvike." },
+  { title: "Kan jeg se egne bilder av demobilen?", text: "Vi legger ut egne bilder når bilen er levert. Vår demobil er bestilt i sort, med elektrisk drivlinje og Ultimate-utstyr." },
   { title: "Følger vinterhjul med vinterpakken?", text: "Nei. Vinterpakken er utstyr på bilen. Et sett vinterhjul er et eget tilvalg til 10 000 kr." },
   { title: "Hvordan får jeg pris og leveringstid på en ny bil?", text: "Ta kontakt, så gir vi deg et konkret tilbud med totalpris, utstyr og forventet levering. Avgifter og registreringskostnader bekreftes i tilbudet. Levering er tidligst i 2027." },
 ];
@@ -61,14 +60,15 @@ export default function LigierDemoPage() {
               </div>
               <p className="mt-4 text-sm text-muted">Vi gir deg beskjed når den er klar for visning og prøvekjøring.</p>
             </div>
-            <figure className="min-w-0">
-              <div className="relative isolate overflow-hidden rounded-2xl bg-[#f2f2ef]">
-                <span className="absolute top-5 left-5 z-10 rounded-full bg-black px-4 py-2 text-xs font-semibold tracking-[0.13em] text-white sm:top-6 sm:left-6">100 % ELEKTRISK</span>
-                <Image src={imagePath} alt="Sort Ligier JS60 Ultimate sett skrått forfra, illustrasjonsbilde fra produsenten" width={1100} height={720} sizes="(max-width: 1023px) 100vw, 700px" unoptimized priority className="h-auto w-full" />
-                <div className="flex items-center justify-between gap-4 border-t border-black/10 px-5 py-4 text-xs font-medium text-black/65 sm:px-6"><span>LIGIER JS60 ULTIMATE</span><span>Sort · Demobil bestilt</span></div>
-              </div>
-              <figcaption className="mt-3 text-xs leading-relaxed text-muted">Modellbilde fra Ligier. Vår demobil er bestilt i sort. Detaljer kan avvike.</figcaption>
-            </figure>
+            <aside aria-labelledby="order-heading" className="min-w-0 rounded-2xl border border-white/15 border-t-4 border-t-primary bg-secondary/50 p-7 sm:p-10">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff7373]">Vår bestilte demobil</p>
+              <h2 id="order-heading" className="mt-5 text-3xl font-semibold tracking-tight">Komforten er med.</h2>
+              <ul className="mt-7 space-y-4">
+                {equipment.map((item) => (<li key={item.number} className="flex items-center gap-3 text-white/85"><Check size={18} className="shrink-0 text-primary" aria-hidden="true" />{item.title}</li>))}
+              </ul>
+              <div className="mt-8 border-t border-white/15 pt-6"><p className="text-sm text-muted">Levering tidligst</p><p className="mt-1 text-5xl font-semibold tracking-tight text-white">2027</p></div>
+              <p className="mt-6 text-sm leading-relaxed text-muted">Vi legger ut egne bilder når demobilen er på plass.</p>
+            </aside>
           </div>
           <dl className="mt-12 grid grid-cols-2 gap-x-6 gap-y-6 border-t border-white/15 pt-7 md:mt-16 md:grid-cols-4">
             {[['Drivlinje', 'Elektrisk'], ['Farge', 'Sort'], ['Utgave', 'Ultimate'], ['Levering', 'Tidligst 2027']].map(([label, value]) => (
@@ -92,13 +92,6 @@ export default function LigierDemoPage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="border-y border-white/10 bg-secondary/30" aria-labelledby="interior-heading">
-        <div className="container-main grid items-center gap-10 py-12 md:py-16 lg:grid-cols-2 lg:gap-16">
-          <figure><Image src="/images/mopedbil/demobil/ligier-js60-interior.webp" alt="Illustrasjonsbilde av førermiljøet i Ligier JS60 Ultimate" width={1100} height={720} sizes="(max-width: 1023px) 100vw, 600px" unoptimized className="h-auto w-full rounded-2xl" /><figcaption className="mt-3 text-xs text-muted">Interiørbilde fra Ligier. Utstyr og detaljer kan avvike.</figcaption></figure>
-          <div><p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#ff7373]">Ultimate-utgaven</p><h2 id="interior-heading" className="text-3xl font-semibold tracking-tight md:text-4xl">Sett deg inn.<br />Kjenn etter.</h2><p className="mt-6 text-lg leading-relaxed text-muted">Et førermiljø med sportslig preg, tydelig skjerm og detaljer som gir JS60 Ultimate sin egen personlighet. Demobilen vår skal gjøre det enkelt å se hva som passer deg.</p><p className="mt-4 leading-relaxed text-muted">Du finner oss på Borgenhaugen i Sarpsborg. Meld interesse, så tar vi kontakt når bilen er klar.</p><a href="#kontakt" className="mt-7 inline-flex items-center gap-2 font-medium text-white underline decoration-primary decoration-2 underline-offset-8">Få beskjed om demobilen <ArrowRight size={17} aria-hidden="true" /></a></div>
         </div>
       </section>
 

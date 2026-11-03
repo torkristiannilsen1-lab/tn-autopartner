@@ -27,8 +27,8 @@ export function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
         <Link href="/" className="relative h-10 w-44 shrink-0">
           <Image
-            src="/images/logo.png"
-            alt="TN Autopartner AS"
+            src="/images/logo.svg"
+            alt="TN Autopartner AS – Din partner på veien"
             fill
             className="object-contain object-left"
             priority

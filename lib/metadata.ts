@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { CONTACT, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "./constants";
 
-const defaultOgImage = `${SITE_URL}/images/logo.png`;
+const defaultOgImage = `${SITE_URL}/images/logo.png?v=20261103`;
 
 export const baseMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),

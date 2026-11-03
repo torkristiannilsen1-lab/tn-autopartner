@@ -10,8 +10,8 @@ export function Footer() {
           <div>
             <Link href="/" className="relative mb-6 inline-block h-10 w-44">
               <Image
-                src="/images/logo.png"
-                alt={SITE_NAME}
+                src="/images/logo.svg"
+                alt={`${SITE_NAME} – Din partner på veien`}
                 fill
                 className="object-contain object-left"
               />
