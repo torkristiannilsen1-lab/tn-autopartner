@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowDown, ArrowLeft, ArrowRight, Check, ChevronRight, Phone, Snowflake } from "lucide-react";
 import { Button } from "@/components/Button";
 import { ContactSection } from "@/components/ContactSection";
-import { MopedbilIllustration } from "@/components/MopedbilIllustration";
+import { MopedbilPhoto } from "@/components/MopedbilPhoto";
 import { CONTACT } from "@/lib/constants";
 import { createPageMetadata } from "@/lib/metadata";
 
@@ -30,7 +30,7 @@ const equipment = [
 
 const questions = [
   { title: "Når kan jeg se og prøve demobilen?", text: "Bilen er bestilt, med levering tidligst i 2027. Meld interesse, så tar vi kontakt når bilen er klar og vi kan avtale visning eller prøvekjøring." },
-  { title: "Er bildet av den faktiske demobilen?", text: "Nei. Bildet er en AI-generert illustrasjon av en elektrisk mopedbil. Utforming og detaljer kan avvike fra Ligier JS60. Vi legger ut egne bilder når demobilen er levert." },
+  { title: "Er bildet av den faktiske demobilen?", text: "Nei. Modellfotoet viser en grå JS60 Ultimate med dieselmotor. Vår demobil er bestilt i sort med elektrisk drivlinje. Utstyr og detaljer kan avvike. Vi legger ut egne bilder når demobilen er levert." },
   { title: "Følger vinterhjul med vinterpakken?", text: "Nei. Vinterpakken er utstyr på bilen. Et sett vinterhjul er et eget tilvalg til 10 000 kr." },
   { title: "Hvordan får jeg pris og leveringstid på en ny bil?", text: "Ta kontakt, så gir vi deg et konkret tilbud med totalpris, utstyr og forventet levering. Avgifter og registreringskostnader bekreftes i tilbudet. Levering er tidligst i 2027." },
 ];
@@ -61,7 +61,7 @@ export default function LigierDemoPage() {
               </div>
               <p className="mt-4 text-sm text-muted">Vi gir deg beskjed når den er klar for visning og prøvekjøring.</p>
             </div>
-            <MopedbilIllustration priority />
+            <MopedbilPhoto priority />
           </div>
           <dl className="mt-12 grid grid-cols-2 gap-x-6 gap-y-6 border-t border-white/15 pt-7 md:mt-16 md:grid-cols-4">
             {[['Drivlinje', 'Elektrisk'], ['Farge', 'Sort'], ['Utgave', 'Ultimate'], ['Levering', 'Tidligst 2027']].map(([label, value]) => (

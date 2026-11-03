@@ -1,0 +1,40 @@
+{
+  "checked": "2026-11-03",
+  "photos": [
+    {
+      "title": "2026 Ligier JS60 Ultimate",
+      "author": "Js60ultim",
+      "source": "https://commons.wikimedia.org/wiki/File:2026_Ligier_JS60_Ultimate.jpg",
+      "original_image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2026_Ligier_JS60_Ultimate.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_dimensions": [
+        1156,
+        989
+      ],
+      "file": "ligier-js60-ultimate-2026-front-cc-by.webp",
+      "modifications": "JPEG converted to WebP. Original dimensions retained; no crop, stretch, colour change or AI editing.",
+      "pictured_vehicle": "Grey 2026 Mk2 JS60 Ultimate 0.5 dCi; not the black electric ordered TN demo",
+      "sha256_webp": "17bf53c72dd7f366f6e5a5de62c3d62c840daf93c193732265400bf124e25a09"
+    },
+    {
+      "title": "Ligier JS60 2026 Ultimate",
+      "author": "Js60ultim",
+      "source": "https://commons.wikimedia.org/wiki/File:Ligier_JS60_2026_Ultimate.jpg",
+      "original_image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ligier_JS60_2026_Ultimate.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_dimensions": [
+        1130,
+        848
+      ],
+      "file": "ligier-js60-ultimate-2026-side-cc-by.webp",
+      "modifications": "JPEG converted to WebP. Original dimensions retained; no crop, stretch, colour change or AI editing.",
+      "pictured_vehicle": "Grey 2026 Mk2 JS60 Ultimate 0.5 dCi; not the black electric ordered TN demo",
+      "sha256_webp": "24fc79c26c5d2f59c851404c96a8d99c1f16879971f4f6f998fa16f5e65f1b0a"
+    }
+  ],
+  "commercial_use": "Permitted by CC BY 4.0 with attribution and licence link; file pages identify own work by Js60ultim",
+  "attribution_location": "Visible below each website image; original front-photo author, source and licence also included in Facebook caption",
+  "ai_draft": "Rejected by user; never promoted to production. Manufacturer photos without permission remain withdrawn."
+}
