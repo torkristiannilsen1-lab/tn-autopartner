@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
-const posterPath = "/images/mopedbil/demobil/ligier-js60-ultimate-demobil-plakat-sort";
+const posterPath = "/images/mopedbil/demobil/ligier-js60-ultimate-demobil-plakat-sort-ren";
 
 export function MopedbilPoster({ priority = false }: { priority?: boolean }) {
   return (
@@ -17,17 +18,13 @@ export function MopedbilPoster({ priority = false }: { priority?: boolean }) {
           className="h-auto w-full rounded-2xl border border-white/15 object-contain"
         />
       </a>
-      <figcaption className="mt-4 text-xs leading-relaxed text-muted">
-        Modellfoto med farge og bakgrunn digitalt endret. Avbildet modell har
-        dieselmotor; vår demobil er bestilt med elektrisk drivlinje.
-        <span className="mt-2 block">
-          Foto: <a href="https://commons.wikimedia.org/wiki/File:2026_Ligier_JS60_Ultimate.jpg" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-white">Js60ultim / Wikimedia Commons</a>
-          {" · "}<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-white">CC BY 4.0</a>.
-          {" "}Bearbeidet av TN Autopartner.
-        </span>
-        <a href={`${posterPath}.png`} download="TN-Autopartner-Ligier-JS60-demobil.png" className="mt-3 inline-block font-medium text-white underline decoration-primary underline-offset-4">
+      <figcaption className="mt-3 flex flex-wrap items-center justify-between gap-3 text-xs leading-relaxed text-muted">
+        <a href={`${posterPath}.png`} download="TN-Autopartner-Ligier-JS60-demobil.png" className="font-medium text-white underline decoration-primary underline-offset-4">
           Last ned plakaten
         </a>
+        <Link href="/mopedbil/bildeinformasjon" className="underline underline-offset-4 hover:text-white">
+          Om bildet
+        </Link>
       </figcaption>
     </figure>
   );

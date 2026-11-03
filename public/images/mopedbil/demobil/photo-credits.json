@@ -47,7 +47,7 @@
     }
   ],
   "commercial_use": "Permitted by CC BY 4.0 with attribution and licence link; file pages identify own work by Js60ultim",
-  "attribution_location": "Visible below each website image; original front-photo author, source and licence also included in Facebook caption",
+  "attribution_location": "Compact Om bildet link below the poster leads to the author, original source, CC BY4.0 licence and modifications. Source-photo info on earlier unmodified model-image exports remains in their own records.",
   "ai_draft": "Earlier fully generated car concept rejected by user and never published. Current images are colour edits of licensed actual model photographs.",
   "colour_edit": {
     "mode": "Built-in imagegen edit",
@@ -56,8 +56,8 @@
     "disclosure": "Visible edited-colour badge, caption, modification credit and FAQ. Diesel variant vs ordered electric demo remains disclosed."
   },
   "advertising_poster": {
-    "file": "ligier-js60-ultimate-demobil-plakat-sort.webp",
-    "download_file": "ligier-js60-ultimate-demobil-plakat-sort.png",
+    "file": "ligier-js60-ultimate-demobil-plakat-sort-ren.webp",
+    "download_file": "ligier-js60-ultimate-demobil-plakat-sort-ren.png",
     "dimensions": [
       1122,
       1402
@@ -66,13 +66,15 @@
     "photo_author": "Js60ultim",
     "photo_licence": "CC BY4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "Uses the approved black recoloured photograph. Outdoor background removed and replaced with studio background; photograph composited with corrected TN logo and poster typography using built-in imagegen. Colour/background changes, photographed diesel variant and ordered electric demo disclosed in poster footer and web caption.",
+    "modifications": "Uses the approved black recoloured photograph. Outdoor background removed and replaced with studio background; photograph composited with corrected TN logo and poster typography using built-in imagegen. Colour/background changes, photographed diesel variant and ordered electric demo disclosed in poster footer and web caption. The three burned-in footer lines were removed at owner request. Required photo attribution and modification information are retained on the linked image-information resource and in accompanying social copy.",
     "source_inputs": [
       "Approved licensed black recoloured front photograph",
       "Corrected TN Autopartner logo, slogan DIN PARTNER PÅ VEIEN"
     ],
     "old_unlicensed_poster_input": false,
-    "prompt_file": "imagegen-prompt-reklameplakat-sort.txt",
-    "sha256_png": "ec4e297e797a58c245391a5f2b0952262a3bdd1b1db10ff015c81fbe957a2395"
+    "prompt_file": "imagegen-prompt-plakat-uten-smatekst.txt",
+    "sha256_png": "60f851e5e114eaad5508f952a4f99435ba11b4d81d22bad5008bd9fe009eca40",
+    "previous_file": "ligier-js60-ultimate-demobil-plakat-sort.webp",
+    "attribution_location": "https://www.tnautopartner.no/mopedbil/bildeinformasjon, linked as Om bildet directly below the poster"
   }
 }
