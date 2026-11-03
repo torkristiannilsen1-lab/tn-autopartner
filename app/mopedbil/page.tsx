@@ -70,6 +70,7 @@ export default function MopedbilPage() {
                   width={1100}
                   height={720}
                   sizes="(max-width: 1023px) 100vw, 560px"
+                  unoptimized
                   priority
                   className="h-auto w-full"
                 />

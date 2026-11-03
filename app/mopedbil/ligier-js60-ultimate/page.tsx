@@ -64,7 +64,7 @@ export default function LigierDemoPage() {
             <figure className="min-w-0">
               <div className="relative isolate overflow-hidden rounded-2xl bg-[#f2f2ef]">
                 <span className="absolute top-5 left-5 z-10 rounded-full bg-black px-4 py-2 text-xs font-semibold tracking-[0.13em] text-white sm:top-6 sm:left-6">100 % ELEKTRISK</span>
-                <Image src={imagePath} alt="Sort Ligier JS60 Ultimate sett skrått forfra, illustrasjonsbilde fra produsenten" width={1100} height={720} sizes="(max-width: 1023px) 100vw, 700px" priority className="h-auto w-full" />
+                <Image src={imagePath} alt="Sort Ligier JS60 Ultimate sett skrått forfra, illustrasjonsbilde fra produsenten" width={1100} height={720} sizes="(max-width: 1023px) 100vw, 700px" unoptimized priority className="h-auto w-full" />
                 <div className="flex items-center justify-between gap-4 border-t border-black/10 px-5 py-4 text-xs font-medium text-black/65 sm:px-6"><span>LIGIER JS60 ULTIMATE</span><span>Sort · Demobil bestilt</span></div>
               </div>
               <figcaption className="mt-3 text-xs leading-relaxed text-muted">Modellbilde fra Ligier. Vår demobil er bestilt i sort. Detaljer kan avvike.</figcaption>
@@ -97,7 +97,7 @@ export default function LigierDemoPage() {
 
       <section className="border-y border-white/10 bg-secondary/30" aria-labelledby="interior-heading">
         <div className="container-main grid items-center gap-10 py-12 md:py-16 lg:grid-cols-2 lg:gap-16">
-          <figure><Image src="/images/mopedbil/demobil/ligier-js60-interior.webp" alt="Illustrasjonsbilde av førermiljøet i Ligier JS60 Ultimate" width={1100} height={720} sizes="(max-width: 1023px) 100vw, 600px" className="h-auto w-full rounded-2xl" /><figcaption className="mt-3 text-xs text-muted">Interiørbilde fra Ligier. Utstyr og detaljer kan avvike.</figcaption></figure>
+          <figure><Image src="/images/mopedbil/demobil/ligier-js60-interior.webp" alt="Illustrasjonsbilde av førermiljøet i Ligier JS60 Ultimate" width={1100} height={720} sizes="(max-width: 1023px) 100vw, 600px" unoptimized className="h-auto w-full rounded-2xl" /><figcaption className="mt-3 text-xs text-muted">Interiørbilde fra Ligier. Utstyr og detaljer kan avvike.</figcaption></figure>
           <div><p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#ff7373]">Ultimate-utgaven</p><h2 id="interior-heading" className="text-3xl font-semibold tracking-tight md:text-4xl">Sett deg inn.<br />Kjenn etter.</h2><p className="mt-6 text-lg leading-relaxed text-muted">Et førermiljø med sportslig preg, tydelig skjerm og detaljer som gir JS60 Ultimate sin egen personlighet. Demobilen vår skal gjøre det enkelt å se hva som passer deg.</p><p className="mt-4 leading-relaxed text-muted">Du finner oss på Borgenhaugen i Sarpsborg. Meld interesse, så tar vi kontakt når bilen er klar.</p><a href="#kontakt" className="mt-7 inline-flex items-center gap-2 font-medium text-white underline decoration-primary decoration-2 underline-offset-8">Få beskjed om demobilen <ArrowRight size={17} aria-hidden="true" /></a></div>
         </div>
       </section>
